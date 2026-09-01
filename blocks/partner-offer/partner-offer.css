@@ -49,21 +49,21 @@ main .partner-offer-container > div {
 .partner-offer hr {
   border: 0;
   border-top: 1px solid var(--bold-blue);
-  margin: 34px 0 28px;
+  margin: 34px 0 20px;
 }
 
 .partner-offer .po-intro {
   font-size: 17.6px;
   line-height: 26.4px;
-  margin: 0 0 22px;
+  margin: 0 0 25px;
 }
 
 .partner-offer .po-tiers {
   list-style: none;
   padding: 0;
-  margin: 0 0 54px;
+  margin: 0 0 36px;
   display: grid;
-  gap: 30px;
+  gap: 18px;
 }
 
 .partner-offer .po-tiers li {
