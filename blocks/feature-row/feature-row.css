@@ -6,7 +6,7 @@ main .feature-row-container {
 main .feature-row-container > div {
   max-width: var(--maxw);
   padding-top: 24px;
-  padding-bottom: 47px;
+  padding-bottom: 24px;
 }
 
 .feature-row .feature-card {

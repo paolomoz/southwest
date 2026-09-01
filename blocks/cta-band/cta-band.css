@@ -5,7 +5,7 @@ main .cta-band-container {
 
 main .cta-band-container > div {
   max-width: var(--maxw);
-  padding-top: 37px;
+  padding-top: 55px;
   padding-bottom: 0;
 }
 
@@ -13,7 +13,7 @@ main .cta-band-container > div {
   background: var(--bold-blue);
   color: #fff;
   border-radius: 2px;
-  padding: 22px 16px 36px;
+  padding: 22px 16px 60px;
 }
 
 .cta-band .eyebrow-chip {
@@ -44,7 +44,7 @@ main .cta-band-container > div {
   grid-template-columns: 1fr auto auto;
   gap: 48px;
   align-items: center;
-  margin-top: 33px;
+  margin-top: 42px;
 }
 
 .cta-band .price-callouts {
@@ -104,7 +104,7 @@ main .cta-band-container > div {
   font-size: 11px;
   line-height: 1.5;
   color: rgb(255 255 255 / 85%);
-  margin: 24px 0 0;
+  margin: 34px 0 0;
   max-width: 110ch;
 }
 

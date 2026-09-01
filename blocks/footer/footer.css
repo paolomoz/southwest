@@ -6,7 +6,7 @@ footer {
 footer .footer-inner {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 var(--content-pad) 16px;
+  padding: 0 var(--content-pad) 36px;
   font-size: var(--body-font-size-s);
 }
 
