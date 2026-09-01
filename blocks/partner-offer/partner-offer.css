@@ -141,6 +141,7 @@ main .partner-offer-container > div {
 .partner-offer.compact .po-intro,
 .partner-offer.compact .po-promo {
   margin-bottom: 24px;
+  max-width: none;
 }
 
 .partner-offer.compact .po-tiers {
