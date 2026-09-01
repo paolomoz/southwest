@@ -5,7 +5,7 @@ main .cta-band-container {
 
 main .cta-band-container > div {
   max-width: var(--maxw);
-  padding-top: 62px;
+  padding-top: 53px;
   padding-bottom: 0;
 }
 
