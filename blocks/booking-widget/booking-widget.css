@@ -5,8 +5,8 @@ main .booking-widget-container {
 
 main .booking-widget-container > div {
   max-width: var(--maxw);
-  padding-top: 23px;
-  padding-bottom: 12px;
+  padding-top: 41px;
+  padding-bottom: 29px;
 }
 
 .booking-widget .hero-grid {
