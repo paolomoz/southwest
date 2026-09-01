@@ -53,7 +53,8 @@ main .partner-offer-container > div {
 }
 
 .partner-offer .po-intro {
-  font-size: 16px;
+  font-size: 17.6px;
+  line-height: 26.4px;
   margin: 0 0 22px;
 }
 
@@ -73,21 +74,15 @@ main .partner-offer-container > div {
 }
 
 .partner-offer .po-tiers li::before {
-  content: '';
-  width: 16px;
-  height: 12px;
+  content: url('https://www.southwest.com/swa-resources/images/icons/png/icon-darkblue-right-arrow.png');
   flex: none;
   align-self: center;
-  background: currentcolor;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 18' fill='black'%3E%3Cpath d='M14 0l10 9-10 9v-6H0V6h14z'/%3E%3C/svg%3E") center / contain no-repeat;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 18' fill='black'%3E%3Cpath d='M14 0l10 9-10 9v-6H0V6h14z'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 
 .partner-offer .po-promo {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 17.6px;
+  line-height: 26.4px;
   margin: 0 0 30px;
-  max-width: 108ch;
 }
 
 .partner-offer a.button.primary {
@@ -147,4 +142,22 @@ main .partner-offer-container > div {
 .partner-offer.compact .po-tiers {
   gap: 35px;
   margin-bottom: 35px;
+}
+
+/* plain variant — alamo/national: plain disc list, tight rhythm */
+.partner-offer.plain .po-tiers {
+  list-style: disc;
+  padding-left: 22px;
+  display: block;
+  margin: 0 0 24px;
+}
+
+.partner-offer.plain .po-tiers li {
+  display: list-item;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.partner-offer.plain .po-tiers li::before {
+  content: none;
 }

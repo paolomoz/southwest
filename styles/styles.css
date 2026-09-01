@@ -321,6 +321,11 @@ body.rapid-rewards {
   line-height: 1.55;
 }
 
+.rapid-rewards main .section.terms.terms-small p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 /* list-shape terms (avis/budget/payless): live is 16px/24px, flush, no gaps */
 .rapid-rewards main .section.terms ul {
   list-style: none;
