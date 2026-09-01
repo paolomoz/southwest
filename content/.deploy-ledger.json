@@ -1,0 +1,119 @@
+{
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:39.090Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:39.090Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:39.090Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/alamo-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:44.495Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/avis-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:44.769Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/budget-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:44.769Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/dollar-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:49.514Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/enterprise-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:50.071Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/hertz-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:50.252Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/national-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:55.118Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/payless-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:55.253Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/car-offers/thrifty-car-rental-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:55.372Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/special-offers/flight-deals": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-01T20:05:59.980Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

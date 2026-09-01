@@ -119,3 +119,9 @@ main .partner-offer-container > div {
     margin-left: 0;
   }
 }
+
+/* compact variant — dollar template: smaller partner logo */
+.partner-offer.compact .po-logo img {
+  width: 200px;
+  margin-left: -13px;
+}

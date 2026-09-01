@@ -1,0 +1,13 @@
+{"t":"2026-09-01T20:05:44.494Z","path":"/nav","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:44.768Z","path":"/footer","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:44.768Z","path":"/index","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:49.513Z","path":"/special-offers/car-offers/budget-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:50.068Z","path":"/special-offers/car-offers/avis-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:50.251Z","path":"/special-offers/car-offers/alamo-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:55.118Z","path":"/special-offers/car-offers/dollar-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:55.253Z","path":"/special-offers/car-offers/enterprise-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:55.371Z","path":"/special-offers/car-offers/hertz-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:59.979Z","path":"/special-offers/car-offers/payless-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:05:59.997Z","path":"/special-offers/car-offers/national-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:06:00.809Z","path":"/special-offers/car-offers/thrifty-car-rental-deals","step":"verify","ok":true}
+{"t":"2026-09-01T20:06:04.752Z","path":"/special-offers/flight-deals","step":"verify","ok":true}

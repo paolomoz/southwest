@@ -96,3 +96,9 @@ main .promo-hero-container > div {
     height: 180px;
   }
 }
+
+/* short variant — compact program hero (dollar template: 441px photo) */
+.promo-hero.short .ph-photo,
+.promo-hero.short .ph-copy {
+  height: 441px;
+}
