@@ -311,17 +311,23 @@ body.rapid-rewards {
   margin: 0;
 }
 
-.rapid-rewards main .section.terms p,
-.rapid-rewards main .section.terms ul {
+.rapid-rewards main .section.terms > div {
+  max-width: 1182px;
+  padding: 0 15px;
+}
+
+.rapid-rewards main .section.terms p {
   font-size: 17.6px;
   line-height: 1.55;
 }
 
+/* list-shape terms (avis/budget/payless): live is 16px/24px, flush, no gaps */
 .rapid-rewards main .section.terms ul {
-  padding-left: 26px;
-  display: grid;
-  gap: 6px;
+  list-style: none;
+  padding: 0;
   margin: 0;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 @media (width >= 900px) {
