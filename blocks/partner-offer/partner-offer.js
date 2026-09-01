@@ -34,6 +34,11 @@ export default function decorate(block) {
       const h2 = document.createElement('h2');
       [...heading.childNodes].forEach((n) => h2.append(n.cloneNode(true)));
       headCopy.append(h2);
+      [...cell.querySelectorAll('p')].forEach((p) => {
+        const sub = p.cloneNode(true);
+        sub.className = 'po-sub';
+        headCopy.append(sub);
+      });
     } else if (list) {
       const ul = list.cloneNode(true);
       ul.className = 'po-tiers';

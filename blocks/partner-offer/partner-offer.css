@@ -35,10 +35,15 @@ main .partner-offer-container > div {
 }
 
 .partner-offer .po-head h2 {
-  font-size: 32px;
+  font-size: 36px;
   line-height: 1.3;
   margin: 0;
-  padding-top: 36px;
+  padding-top: 30px;
+}
+
+.partner-offer .po-head .po-sub {
+  font-size: 17.6px;
+  margin: 10px 0 0;
 }
 
 .partner-offer hr {
