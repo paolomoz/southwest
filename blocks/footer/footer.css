@@ -1,20 +1,196 @@
+/* footer — southwest.com www chrome (replica; canon-gated on home @1440) */
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  background-color: var(--panel);
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .footer-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 var(--content-pad) 16px;
+  font-size: var(--body-font-size-s);
 }
 
-footer .footer p {
+/* help / subscribe / social / apps band */
+footer .email-band {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.2fr auto;
+  gap: 48px;
+  align-items: start;
+  padding: 24px 0;
+}
+
+footer .email-band a {
+  font-weight: 700;
+  color: var(--bold-blue);
+}
+
+footer .help-cell a,
+footer .subscribe-cell a:first-of-type {
+  display: block;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-m);
+  margin-top: 2px;
+}
+
+footer .cell-label {
+  font-size: var(--body-font-size-s);
+}
+
+footer .social-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+footer .social-row a {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 150px;
+  background: var(--bold-blue);
+  color: #fff;
+}
+
+footer .social-row a:hover {
+  background: var(--midnight);
+}
+
+footer .social-row svg {
+  width: 17px;
+  height: 17px;
+  fill: currentcolor;
+}
+
+footer .apps-cell {
+  text-align: center;
+}
+
+/* mega columns */
+footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+  border-top: 1px solid var(--hairline);
+  padding-top: 14px;
+}
+
+footer .footer-cols h2 {
+  font-size: 17px;
+  margin: 0 0 12px;
+}
+
+footer .footer-cols h2 a {
+  color: var(--midnight);
+}
+
+footer .footer-cols ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
+  display: grid;
+  gap: 6px;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .footer-cols a {
+  font-size: 13px;
+  line-height: 1.35;
+  color: var(--bold-blue);
+}
+
+/* legal */
+footer .footer-legal {
+  border-top: 1px solid var(--hairline);
+  margin-top: 8px;
+  padding-top: 8px;
+  font-size: var(--body-font-size-xs);
+  color: var(--ink-muted);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: end;
+}
+
+footer .footer-legal .legend {
+  grid-column: 1;
+  margin-bottom: 8px;
+}
+
+footer .footer-legal .copyright {
+  grid-column: 1;
+}
+
+footer .footer-legal .sub-brands {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+footer .footer-legal .sub-brands img {
+  height: 22px;
+  width: auto;
+}
+
+@media (width <= 640px) {
+  footer .email-band {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 0;
+  }
+
+  footer .help-cell a,
+  footer .subscribe-cell a:first-of-type {
+    display: inline;
+    font-size: var(--body-font-size-s);
+  }
+
+  footer .subscribe-cell,
+  footer .social-cell {
+    display: none;
+  }
+
+  footer .footer-cols {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-top: 8px;
+    border-top: 0;
+  }
+
+  footer .footer-cols nav {
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  footer .footer-cols ul {
+    display: none;
+  }
+
+  footer .footer-cols h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  footer .footer-cols h2::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-right: 2px solid var(--bold-blue);
+    border-bottom: 2px solid var(--bold-blue);
+    transform: rotate(45deg);
+    margin-right: 6px;
+  }
+
+  footer .footer-legal {
+    grid-template-columns: 1fr;
+  }
+
+  footer .footer-legal .sub-brands {
+    display: none;
   }
 }

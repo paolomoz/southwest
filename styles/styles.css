@@ -1,73 +1,86 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * ⚠️ FONT LICENSING REQUIRED BEFORE GOING LIVE
+ * "Southwest Sans" (fonts/SouthwestSans-*.woff2) is a proprietary brand face
+ * (Southwest Airlines / Monotype custom). Self-hosted here for migration
+ * fidelity per stardust replica contract. Do NOT publish to a public
+ * production domain until the webfont/embedding license is confirmed.
+ * Remove path: delete fonts/SouthwestSans-*.woff2 + their @font-face rules in
+ * styles/fonts.css; stacks fall back to the metric-matched southwest-sans-fallback.
+ * See fonts/LICENSING.md.
  *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * Foundation: brand tokens lifted from stardust/canon/canon.css (gate-passed
+ * replica of southwest.com home @1440, 8.41% pixel diff). Structural layer
+ * (body gate, nav-height reservation, section scaffold) preserved from
+ * adobe/aem-boilerplate.
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* colors — southwest.com token layer (captured) */
+  --background-color: #fff;
+  --panel: #f4f4f4;
+  --bold-blue: #304cb2;
+  --midnight: #111b40;
+  --sunrise-yellow: #ffbf27;   /* RESERVED: primary actions only */
+  --sunrise-deep: #ec9d04;
+  --heart-red: #d5152e;
+  --ink-muted: #515151;
+  --hairline: #d6d6d6;
+  --field-border: #7a7a7a;
+  --getaways-cyan: #01d8e0;    /* RESERVED: Getaways modules */
+  --light-color: var(--panel);
+  --dark-color: var(--midnight);
+  --text-color: var(--midnight);
+  --link-color: var(--bold-blue);
+  --link-hover-color: var(--bold-blue);
+  --shadow-card: 0 4px 8px rgb(0 0 0 / 20%);
+  --shadow-drop: 0 5px 5px rgb(0 0 0 / 15%);
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: 'Southwest Sans', southwest-sans-fallback, arial, sans-serif;
+  --heading-font-family: var(--body-font-family);
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  /* body sizes — captured scale */
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  /* heading sizes — captured scale */
+  --heading-font-size-xxl: 36px;
+  --heading-font-size-xl: 28px;
+  --heading-font-size-l: 24px;
+  --heading-font-size-m: 18px;
+  --heading-font-size-s: 16px;
+  --heading-font-size-xs: 14px;
 
-  /* nav height */
-  --nav-height: 64px;
+  /* layout — captured container: 1212px content @ x114 on 1440 */
+  --maxw: 1260px;
+  --content-pad: 24px;
+
+  /* nav height — real chrome height (utility row + nav row), responsive */
+  --nav-height: 141px;
 }
 
-/* fallback fonts */
+/* metric-matched fallback for the brand face (computed from the woff2) */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
+  font-family: southwest-sans-fallback;
+  size-adjust: 115.09%;
+  ascent-override: 82.37%;
+  descent-override: 29.28%;
+  line-gap-override: 0%;
   src: local('Arial');
 }
 
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
-}
-
-@media (width >= 900px) {
+@media (width <= 640px) {
   :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --nav-height: 150px;
+    --content-pad: 17px;
+    --heading-font-size-xxl: 28px;
+    --heading-font-size-xl: 26px;
   }
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -77,7 +90,8 @@ body {
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 body.appear {
@@ -86,6 +100,7 @@ body.appear {
 
 header {
   height: var(--nav-height);
+  background: #fff;
 }
 
 header .header,
@@ -93,22 +108,18 @@ footer .footer {
   visibility: hidden;
 }
 
-header .header[data-block-status="loaded"],
-footer .footer[data-block-status="loaded"] {
+header .header[data-block-status='loaded'],
+footer .footer[data-block-status='loaded'] {
   visibility: visible;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 0.8em;
   margin-bottom: 0.25em;
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.25;
+  text-wrap: balance;
   scroll-margin: 40px;
 }
 
@@ -119,37 +130,28 @@ h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
 
-p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
+p, dl, ol, ul, pre, blockquote {
   margin-top: 0.8em;
   margin-bottom: 0.25em;
 }
 
-code,
-pre {
+code, pre {
   font-size: var(--body-font-size-s);
 }
 
 pre {
   padding: 16px;
-  border-radius: 8px;
+  border-radius: 2px;
   background-color: var(--light-color);
   overflow-x: auto;
   white-space: pre;
 }
 
 main > div {
-  margin: 40px 16px;
+  margin: 0;
 }
 
-input,
-textarea,
-select,
-button {
+input, textarea, select, button {
   font: inherit;
 }
 
@@ -157,130 +159,29 @@ button {
 a:any-link {
   color: var(--link-color);
   text-decoration: none;
-  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 a:hover {
-  color: var(--link-hover-color);
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
+:focus-visible {
+  outline: 2px solid var(--bold-blue);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+::selection {
+  background: var(--bold-blue);
+  color: #fff;
+}
+
+/* images */
+img {
+  display: block;
   max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
-  cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
   height: auto;
 }
 
@@ -295,31 +196,107 @@ main img {
   width: 100%;
 }
 
-/* sections */
+/* buttons — brand system: sunrise-yellow reserved to primary actions */
+a.button:any-link,
+button.button {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 10px 24px;
+  font-family: var(--heading-font-family);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--sunrise-yellow);
+  color: var(--midnight);
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+a.button:hover,
+button.button:hover {
+  background-color: var(--sunrise-deep);
+  text-decoration: none;
+}
+
+button.button:disabled,
+button.button:disabled:hover {
+  background-color: var(--light-color);
+  cursor: unset;
+}
+
+a.button.secondary,
+button.button.secondary {
+  background-color: unset;
+  border: 1px solid var(--bold-blue);
+  color: var(--bold-blue);
+}
+
+a.button.secondary:hover,
+button.button.secondary:hover {
+  background-color: rgb(48 76 178 / 6%);
+}
+
+/* on-dark surfaces: secondary outlines go light */
+main .section.dark a.button.secondary,
+main .cta-band a.button.secondary {
+  border-color: rgb(255 255 255 / 60%);
+  color: #fff;
+}
+
+p.button-wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin: 0;
+}
+
+/* sections — captured rhythm (packed) */
 main > .section {
-  margin: 40px 0;
+  margin: 0;
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: var(--maxw);
   margin: auto;
-  padding: 0 24px;
+  padding: 0 var(--content-pad);
 }
 
 main > .section:first-of-type {
   margin-top: 0;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
-  }
+main .section:empty {
+  display: none;
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+/* default-content section style vocabulary (D1) — small closed set */
+main .section.panel {
+  background-color: var(--panel);
+}
+
+main .section.dark {
+  background-color: var(--midnight);
+  color: #fff;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3 {
+  color: #fff;
+}
+
+@media (width >= 900px) {
+  main > .section > div {
+    padding: 0 var(--content-pad);
+  }
 }

@@ -1,0 +1,71 @@
+/* check-in-strip — navy transactional quick-links strip (replica) */
+main .check-in-strip-container {
+  background: var(--midnight);
+}
+
+main .check-in-strip-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+.check-in-strip ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  list-style: none;
+  padding: 24px var(--content-pad);
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.check-in-strip li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.check-in-strip li:not(:first-child)::before {
+  content: '|';
+  color: rgb(255 255 255 / 50%);
+  margin-right: 14px;
+}
+
+.check-in-strip a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.check-in-strip a:hover {
+  color: var(--sunrise-yellow);
+  text-decoration: none;
+}
+
+.check-in-strip svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentcolor;
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (width <= 640px) {
+  .check-in-strip ul {
+    gap: 8px;
+    padding: 26px 8px;
+  }
+
+  .check-in-strip li:not(:first-child)::before {
+    margin-right: 8px;
+  }
+
+  .check-in-strip a {
+    font-size: 15px;
+    gap: 6px;
+  }
+}

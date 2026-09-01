@@ -1,0 +1,193 @@
+/* cta-band — inset promo band on panel ground (replica of the Getaways band) */
+main .cta-band-container {
+  background: var(--panel);
+}
+
+main .cta-band-container > div {
+  max-width: var(--maxw);
+  padding-top: 37px;
+  padding-bottom: 0;
+}
+
+.cta-band .band-inner {
+  background: var(--bold-blue);
+  color: #fff;
+  border-radius: 2px;
+  padding: 22px 16px 36px;
+}
+
+.cta-band .eyebrow-chip {
+  display: inline-block;
+  background: #fff;
+  color: var(--midnight);
+  border-radius: 150px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  padding: 6px 16px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.cta-band h2 {
+  color: #fff;
+  font-size: var(--heading-font-size-xl);
+  margin: 0;
+}
+
+.cta-band .band-lede {
+  margin: 8px 0 0;
+}
+
+.cta-band .band-grid {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 48px;
+  align-items: center;
+  margin-top: 33px;
+}
+
+.cta-band .price-callouts {
+  display: flex;
+  align-items: stretch;
+  gap: 28px;
+}
+
+.cta-band .price-divider {
+  border-left: 1px solid rgb(255 255 255 / 40%);
+  border-right: 1px solid rgb(255 255 255 / 40%);
+  padding-inline: 22px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.cta-band .price-callout .upto {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.cta-band .price-callout .amount {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+}
+
+.cta-band .price-callout .desc {
+  font-size: 12px;
+  max-width: 20ch;
+  margin: 4px 0 0;
+}
+
+.cta-band .trip-pictos {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: #00f6ff; /* --secondary-vacations-700 (reserved: getaways) */
+  margin-right: 60px;
+}
+
+.cta-band .trip-pictos svg {
+  width: 72px;
+  height: 72px;
+  fill: currentcolor;
+}
+
+.cta-band .trip-pictos .plus {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cta-band .band-legal {
+  font-size: 11px;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 85%);
+  margin: 24px 0 0;
+  max-width: 110ch;
+}
+
+.cta-band .band-legal a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (width <= 1024px) {
+  .cta-band .band-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (width <= 640px) {
+  main .cta-band-container > div {
+    padding-top: 59px;
+  }
+
+  .cta-band .band-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 18px 30px;
+  }
+
+  .cta-band h2 {
+    font-size: 34px;
+    line-height: 1.25;
+  }
+
+  .cta-band .band-lede {
+    font-size: 17px;
+  }
+
+  .cta-band .band-grid {
+    display: contents;
+  }
+
+  .cta-band .price-callouts {
+    gap: 10px;
+    flex-wrap: nowrap;
+    margin-top: 28px;
+  }
+
+  .cta-band .price-callout {
+    flex: 1 1 42%;
+  }
+
+  .cta-band .price-callout .amount {
+    font-size: 76px;
+    line-height: 1.05;
+  }
+
+  .cta-band .price-divider {
+    border-right: 0;
+    padding-inline: 4px;
+    align-items: flex-start;
+    padding-top: 46px;
+    width: 16px;
+    overflow: hidden;
+  }
+
+  .cta-band .trip-pictos {
+    display: none;
+  }
+
+  .cta-band .band-legal {
+    order: 1;
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .cta-band .actions {
+    order: 2;
+    margin-top: 28px;
+  }
+
+  .cta-band .actions .button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-block: 16px;
+  }
+}

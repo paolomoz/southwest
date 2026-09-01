@@ -1,0 +1,156 @@
+/* offer-tile-grid — partner offer cards (replica of home 'Special Offers') */
+main .offer-tile-grid-container {
+  padding-top: 37px;
+  padding-bottom: 52px;
+}
+
+main .offer-tile-grid-container .default-content-wrapper {
+  max-width: 1263px;
+}
+
+main .offer-tile-grid-container .default-content-wrapper h2 {
+  font-size: 36px;
+  margin: 0 0 12px;
+}
+
+main .offer-tile-grid-container .offer-tile-grid-wrapper {
+  max-width: 1263px;
+}
+
+.offer-tile-grid .offer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 33px;
+}
+
+.offer-tile-grid .offer-card {
+  background: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-tile-grid figure {
+  position: relative;
+  margin: 0;
+}
+
+.offer-tile-grid figure img {
+  aspect-ratio: 996 / 560;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.offer-tile-grid .offer-badge {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: #00801f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  padding: 4px 10px;
+  border-radius: 150px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: uppercase;
+}
+
+.offer-tile-grid .offer-badge svg {
+  width: 13px;
+  height: 13px;
+  stroke: currentcolor;
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.offer-tile-grid .offer-body {
+  padding: 56px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-height: 267px;
+}
+
+.offer-tile-grid .offer-body h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.offer-tile-grid .offer-body p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  flex: 1;
+}
+
+.offer-tile-grid .offer-body .fineprint {
+  font-size: 11px;
+  color: var(--ink-muted);
+  flex: 0;
+}
+
+.offer-tile-grid .actions {
+  margin-top: auto;
+}
+
+.offer-tile-grid .actions .button {
+  padding: 10px 22px;
+  font-size: 15px;
+}
+
+@media (width <= 768px) {
+  .offer-tile-grid .offer-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 18px;
+  }
+
+  .offer-tile-grid .offer-card {
+    flex: 0 0 154px;
+    min-height: 372px;
+  }
+
+  .offer-tile-grid figure img {
+    width: 154px;
+    height: 87px;
+    aspect-ratio: auto;
+  }
+
+  .offer-tile-grid .offer-body {
+    padding: 20px 10px 14px;
+    min-height: 0;
+  }
+
+  .offer-tile-grid .offer-body h3 {
+    font-size: 17px;
+  }
+
+  .offer-tile-grid .offer-body p {
+    font-size: 14px;
+  }
+
+  .offer-tile-grid .actions .button {
+    padding: 8px 10px;
+    font-size: 12px;
+    white-space: normal;
+  }
+
+  main .offer-tile-grid-container {
+    padding-top: 14px;
+    padding-bottom: 24px;
+  }
+
+  main .offer-tile-grid-container .default-content-wrapper h2 {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+}
