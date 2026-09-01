@@ -1,0 +1,89 @@
+/* member-banner — login-state personalization band */
+main .member-banner-container {
+  padding-top: 28px;
+}
+
+.member-banner .mb-inner {
+  border-radius: 2px;
+  padding: 26px 32px;
+}
+
+.member-banner .mb-inner.anon {
+  background: var(--midnight);
+  color: #fff;
+}
+
+.member-banner .mb-inner.anon h2 {
+  color: #fff;
+  font-size: 26px;
+  margin: 0 0 6px;
+}
+
+.member-banner .mb-inner.anon p {
+  margin: 0 0 16px;
+  color: rgb(255 255 255 / 92%);
+}
+
+.member-banner .mb-inner.member {
+  background: var(--bold-blue);
+  color: #fff;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 24px;
+  align-items: center;
+}
+
+.member-banner .mb-avatar {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 150px;
+  background: var(--sunrise-yellow);
+  color: var(--midnight);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.member-banner .mb-inner.member h2 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+.member-banner .mb-tier {
+  margin: 4px 0 2px;
+}
+
+.member-banner .mb-points {
+  font-weight: 700;
+  color: var(--sunrise-yellow);
+}
+
+.member-banner .mb-perk {
+  margin: 0;
+  font-size: 14px;
+  color: rgb(255 255 255 / 88%);
+}
+
+.member-banner .actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.member-banner .mb-inner.anon .actions .button.secondary,
+.member-banner .mb-inner.member .actions .button.secondary {
+  border-color: rgb(255 255 255 / 60%);
+  color: #fff;
+}
+
+@media (width <= 768px) {
+  .member-banner .mb-inner.member {
+    grid-template-columns: auto 1fr;
+  }
+
+  .member-banner .mb-inner.member .actions {
+    grid-column: 1 / -1;
+  }
+}

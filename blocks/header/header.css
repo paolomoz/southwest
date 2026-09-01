@@ -12,6 +12,7 @@ header nav {
 }
 
 header nav .utility-row {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -155,4 +156,38 @@ header nav .nav-glyphs button {
     font-size: 11px;
     padding-block: 3px;
   }
+}
+
+/* demo login persona menu */
+header nav .login-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 30;
+  background: #fff;
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  box-shadow: var(--shadow-drop);
+  display: grid;
+  min-width: 320px;
+}
+
+header nav .login-menu button {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--panel);
+  padding: 12px 16px;
+  text-align: left;
+  font: inherit;
+  font-size: 14px;
+  color: var(--midnight);
+  cursor: pointer;
+}
+
+header nav .login-menu button:hover {
+  background: var(--panel);
+}
+
+header nav .login-menu button b {
+  color: var(--bold-blue);
 }

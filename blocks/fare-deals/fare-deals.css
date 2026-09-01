@@ -1,0 +1,171 @@
+/* fare-deals — dynamic fare listing (demo: dropdown business logic + login state) */
+main .fare-deals-container {
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.fare-deals .fd-head h2 {
+  font-size: 32px;
+  margin: 0 0 8px;
+}
+
+.fare-deals .fd-head p {
+  max-width: 80ch;
+  margin: 0 0 20px;
+}
+
+/* filter bar — the business-logic surface */
+.fare-deals .fd-filters {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 16px 20px;
+  margin-bottom: 22px;
+}
+
+.fare-deals .fd-filters label {
+  display: grid;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.fare-deals .fd-filters select,
+.fare-deals .fd-filters input {
+  font: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  padding: 9px 10px;
+  border: 1px solid var(--field-border);
+  border-radius: 2px;
+  background: #fff;
+  min-width: 170px;
+}
+
+.fare-deals .fd-budget {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.fare-deals .fd-budget i {
+  font-style: normal;
+  color: var(--ink-muted);
+}
+
+.fare-deals .fd-budget input {
+  min-width: 120px;
+}
+
+.fare-deals .fd-summary {
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.fare-deals .fd-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.fare-deals .fd-list li {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  gap: 24px;
+  align-items: center;
+  padding: 10px 4px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.fare-deals .fd-route b {
+  color: var(--bold-blue);
+  font-size: 16px;
+}
+
+.fare-deals .fd-intl {
+  display: inline-block;
+  margin-left: 10px;
+  background: var(--bold-blue);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  border-radius: 150px;
+  padding: 2px 8px;
+}
+
+.fare-deals .fd-meta {
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.fare-deals .fd-price {
+  text-align: right;
+  min-width: 110px;
+}
+
+.fare-deals .fd-cash {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--midnight);
+}
+
+.fare-deals .fd-pts {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bold-blue);
+  display: block;
+}
+
+.fare-deals .fd-pts em {
+  font-style: normal;
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.fare-deals .fd-cash-alt {
+  display: block;
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.fare-deals .fd-book {
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.fare-deals .fd-legal {
+  font-size: 11.5px;
+  color: var(--ink-muted);
+  margin-top: 18px;
+}
+
+@media (width <= 768px) {
+  .fare-deals .fd-list li {
+    grid-template-columns: 1fr auto;
+  }
+
+  .fare-deals .fd-meta {
+    grid-column: 1 / -1;
+    order: 3;
+  }
+
+  .fare-deals .fd-filters label {
+    flex: 1 1 45%;
+  }
+
+  .fare-deals .fd-filters select,
+  .fare-deals .fd-filters input {
+    min-width: 0;
+    width: 100%;
+  }
+}
