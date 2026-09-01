@@ -16,7 +16,7 @@ footer .email-band {
   grid-template-columns: 1fr 1.2fr 1.2fr auto;
   gap: 48px;
   align-items: start;
-  padding: 46px 0 33px;
+  padding: 46px 0 15px;
 }
 
 footer .email-band a {
@@ -72,7 +72,7 @@ footer .footer-cols {
   grid-template-columns: repeat(4, 1fr);
   gap: 48px;
   border-top: 1px solid var(--hairline);
-  padding-top: 8px;
+  padding-top: 26px;
 }
 
 footer .footer-cols h2 {
@@ -89,7 +89,7 @@ footer .footer-cols ul {
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 5px;
+  gap: 4px;
 }
 
 footer .footer-cols a {
