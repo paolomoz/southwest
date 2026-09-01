@@ -57,7 +57,7 @@
   --content-pad: 24px;
 
   /* nav height — real chrome height (utility row + nav row), responsive */
-  --nav-height: 141px;
+  --nav-height: 106px;
 }
 
 /* metric-matched fallback for the brand face (computed from the woff2) */

@@ -1,7 +1,6 @@
 /* header — southwest.com www chrome (replica; canon-gated on home @1440) */
 header .nav-wrapper {
   background-color: #fff;
-  border-bottom: 1px solid var(--hairline);
   width: 100%;
 }
 
@@ -18,16 +17,43 @@ header nav .utility-row {
   align-items: center;
   gap: 16px;
   padding-top: 12px;
+  height: 40px;
 }
 
 header nav .utility-row .points-note {
   color: var(--bold-blue);
-  font-style: italic;
+}
+
+header nav .utility-row .create-account {
+  font-weight: 700;
+}
+
+header nav .utility-row .espanol {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.3px;
+}
+
+header nav .ic-globe {
+  width: 18px;
+  height: 18px;
+  fill: var(--bold-blue);
 }
 
 header nav .utility-row a.button.login {
-  padding: 6px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
   font-size: var(--body-font-size-s);
+  height: 40px;
+}
+
+header nav .ic-person {
+  width: 15px;
+  height: 16px;
+  fill: var(--midnight);
 }
 
 header nav .nav-row {
@@ -35,7 +61,7 @@ header nav .nav-row {
   align-items: flex-end;
   justify-content: space-between;
   gap: 24px;
-  padding: 16px 0 22px;
+  padding: 7px 0 13px;
 }
 
 header nav .nav-brand img {
@@ -56,14 +82,14 @@ header nav .nav-sections ul {
 header nav .nav-sections a {
   font-weight: 700;
   font-size: 12px;
-  letter-spacing: 0.4px;
+  line-height: 1.25;
   text-transform: uppercase;
-  color: var(--midnight);
-  padding-block: 6px;
+  color: var(--bold-blue);
+  padding: 0 4px 4px;
 }
 
 header nav .nav-sections a:hover {
-  color: var(--bold-blue);
+  color: var(--midnight);
   text-decoration: none;
   box-shadow: inset 0 -2px 0 var(--bold-blue);
 }
@@ -81,13 +107,14 @@ header nav .nav-glyphs button {
   color: var(--midnight);
 }
 
-header nav .nav-glyphs svg {
-  width: 18px;
-  height: 18px;
-  stroke: currentcolor;
-  stroke-width: 1.8;
-  fill: none;
-  stroke-linecap: round;
+header nav .nav-glyphs .ic-bell {
+  width: 22px;
+  height: 22px;
+  fill: var(--bold-blue);
+}
+
+header nav .nav-glyphs button {
+  color: var(--bold-blue);
 }
 
 @media (width <= 640px) {

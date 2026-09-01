@@ -14,7 +14,7 @@ main .check-in-strip-container > div {
   align-items: center;
   gap: 14px;
   list-style: none;
-  padding: 24px var(--content-pad);
+  padding: 16px var(--content-pad);
   margin: 0;
   flex-wrap: wrap;
 }
@@ -33,7 +33,7 @@ main .check-in-strip-container > div {
 .check-in-strip a {
   color: #fff;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -45,13 +45,10 @@ main .check-in-strip-container > div {
 }
 
 .check-in-strip svg {
-  width: 18px;
-  height: 18px;
-  stroke: currentcolor;
-  stroke-width: 1.8;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  width: 20px;
+  height: 20px;
+  fill: currentcolor;
+  stroke: none;
 }
 
 @media (width <= 640px) {
