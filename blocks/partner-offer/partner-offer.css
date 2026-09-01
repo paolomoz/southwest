@@ -128,6 +128,7 @@ main .partner-offer-container > div {
 
 .partner-offer.compact .po-card {
   max-width: 1211px;
+  padding: 48px 45px;
 }
 
 .partner-offer.compact .po-intro,

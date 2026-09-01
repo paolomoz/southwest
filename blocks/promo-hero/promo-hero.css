@@ -97,8 +97,12 @@ main .promo-hero-container > div {
   }
 }
 
-/* short variant — compact program hero (dollar template: 441px photo) */
+/* short variant — compact program hero (dollar template: 441px photo, inverted scrim) */
 .promo-hero.short .ph-photo,
 .promo-hero.short .ph-copy {
   height: 441px;
+}
+
+.promo-hero.short .ph-photo::before {
+  background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 10%));
 }
