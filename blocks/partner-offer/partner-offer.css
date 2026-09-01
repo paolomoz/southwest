@@ -1,6 +1,6 @@
 /* partner-offer — white offer card on navy ground, overlapping the hero */
 main .partner-offer-container {
-  background: #1a2c80;
+  background: linear-gradient(90deg, #172776 0%, #273c93 48%, #172776 100%);
   padding: 0 0 31px;
 }
 
@@ -120,8 +120,24 @@ main .partner-offer-container > div {
   }
 }
 
-/* compact variant — dollar template: smaller partner logo */
+/* compact variant — dollar template: wider card, smaller logo, 17.6px body */
 .partner-offer.compact .po-logo img {
   width: 200px;
   margin-left: -13px;
+}
+
+.partner-offer.compact .po-card {
+  max-width: 1211px;
+}
+
+.partner-offer.compact .po-intro,
+.partner-offer.compact .po-promo,
+.partner-offer.compact .po-tiers li {
+  font-size: 17.6px;
+  line-height: 26.4px;
+}
+
+.partner-offer.compact .po-intro,
+.partner-offer.compact .po-promo {
+  margin-bottom: 16px;
 }
