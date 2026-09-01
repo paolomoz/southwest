@@ -191,3 +191,18 @@ header nav .login-menu button:hover {
 header nav .login-menu button b {
   color: var(--bold-blue);
 }
+
+/* rapid-rewards template — slim program chrome (live parity: 101px header,
+   no points note, no notification/search glyphs, centered nav row) */
+body.rapid-rewards header nav .utility-row .points-note {
+  display: none;
+}
+
+body.rapid-rewards header nav .nav-glyphs {
+  display: none;
+}
+
+body.rapid-rewards header nav .nav-row {
+  align-items: center;
+  padding: 6px 0 9px;
+}

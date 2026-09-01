@@ -1,0 +1,66 @@
+/* sub-nav — program band + section links (rapid-rewards chrome parity) */
+main .sub-nav-container {
+  padding: 0;
+}
+
+main .sub-nav-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+.sub-nav .sn-band {
+  background: #1a2c80;
+  padding-bottom: 8px;
+}
+
+.sub-nav .sn-inner {
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: var(--content-pad);
+}
+
+.sub-nav .sn-band h2 {
+  color: #fff;
+  font-size: 30.4px;
+  line-height: 38px;
+  margin: 0;
+  padding: 11px 0;
+}
+
+.sub-nav .sn-links {
+  background: var(--bold-blue);
+}
+
+.sub-nav .sn-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  padding-inline: 23px;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  max-width: var(--maxw);
+  margin-inline: auto;
+}
+
+.sub-nav .sn-links li {
+  border-right: 1px solid rgb(255 255 255 / 35%);
+}
+
+.sub-nav .sn-links li:last-child {
+  border-right: 0;
+}
+
+.sub-nav .sn-links a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 9px 15px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.sub-nav .sn-links a:hover {
+  background: rgb(255 255 255 / 12%);
+  text-decoration: none;
+}

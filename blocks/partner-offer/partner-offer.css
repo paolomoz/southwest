@@ -1,0 +1,116 @@
+/* partner-offer — white offer card on navy ground, overlapping the hero */
+main .partner-offer-container {
+  background: #1a2c80;
+  padding: 0 0 31px;
+}
+
+main .partner-offer-container > div {
+  max-width: none;
+  padding: 0;
+  margin-top: -83px;
+}
+
+.partner-offer .po-card {
+  position: relative;
+  z-index: 4;
+  max-width: 1181px;
+  margin-inline: auto;
+  background: #fff;
+  border-radius: 2px;
+  padding: 47px 59px;
+  color: var(--midnight);
+}
+
+.partner-offer .po-head {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 36px;
+  align-items: start;
+}
+
+.partner-offer .po-logo img {
+  width: 256px;
+  height: auto;
+  margin-left: 15px;
+}
+
+.partner-offer .po-head h2 {
+  font-size: 32px;
+  line-height: 1.3;
+  margin: 0;
+  padding-top: 36px;
+}
+
+.partner-offer hr {
+  border: 0;
+  border-top: 1px solid var(--bold-blue);
+  margin: 34px 0 28px;
+}
+
+.partner-offer .po-intro {
+  font-size: 16px;
+  margin: 0 0 22px;
+}
+
+.partner-offer .po-tiers {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 54px;
+  display: grid;
+  gap: 30px;
+}
+
+.partner-offer .po-tiers li {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  font-size: 16px;
+}
+
+.partner-offer .po-tiers li::before {
+  content: '';
+  width: 16px;
+  height: 12px;
+  flex: none;
+  align-self: center;
+  background: currentcolor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 18' fill='black'%3E%3Cpath d='M14 0l10 9-10 9v-6H0V6h14z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 18' fill='black'%3E%3Cpath d='M14 0l10 9-10 9v-6H0V6h14z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.partner-offer .po-promo {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 30px;
+  max-width: 108ch;
+}
+
+.partner-offer a.button.primary {
+  padding: 15px 0;
+  width: 275px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+  margin: 0;
+}
+
+@media (width <= 768px) {
+  .partner-offer .po-card {
+    padding: 28px 20px;
+    margin-inline: 16px;
+  }
+
+  .partner-offer .po-head {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .partner-offer .po-head h2 {
+    padding-top: 0;
+  }
+
+  .partner-offer .po-logo img {
+    margin-left: 0;
+  }
+}

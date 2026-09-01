@@ -295,6 +295,35 @@ main .section.dark h3 {
   color: #fff;
 }
 
+/* rapid-rewards template — slim chrome height + terms default-content style */
+body.rapid-rewards {
+  --nav-height: 101px;
+}
+
+.rapid-rewards main .section.terms {
+  padding: 43px 0 0;
+}
+
+.rapid-rewards main .section.terms h2 {
+  font-size: 30.4px;
+  line-height: 38px;
+  padding: 11px 0;
+  margin: 0 0 8px;
+}
+
+.rapid-rewards main .section.terms p,
+.rapid-rewards main .section.terms ul {
+  font-size: 17.6px;
+  line-height: 1.55;
+}
+
+.rapid-rewards main .section.terms ul {
+  padding-left: 26px;
+  display: grid;
+  gap: 6px;
+  margin: 0;
+}
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 var(--content-pad);

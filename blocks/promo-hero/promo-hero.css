@@ -1,0 +1,98 @@
+/* promo-hero — full-bleed program hero (photo, scrim, heart motif, copy) */
+main .promo-hero-container {
+  padding: 0;
+}
+
+main .promo-hero-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+.promo-hero {
+  position: relative;
+}
+
+.promo-hero .ph-photo {
+  position: relative;
+  height: 499px;
+  overflow: hidden;
+}
+
+.promo-hero .ph-photo picture,
+.promo-hero .ph-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+/* live parity: darkening scrim over the photo */
+.promo-hero .ph-photo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+}
+
+/* live parity: heart-brightwork motif, right edge */
+.promo-hero .ph-photo::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 72px;
+  width: 265px;
+  height: 300px;
+  z-index: 2;
+  background: url('https://www.southwest.com/swa-resources/images/responsive/rapid-rewards-responsive/heart-brightwork.png') center / contain no-repeat;
+}
+
+.promo-hero .ph-copy {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}
+
+.promo-hero .ph-inner {
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding: 72px 24px 0 40px;
+}
+
+.promo-hero h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.promo-hero h1 sup {
+  font-size: 55%;
+  line-height: 0;
+}
+
+.promo-hero .ph-lede {
+  color: #fff;
+  font-size: 20.8px;
+  margin: 0 0 16px;
+}
+
+.promo-hero a.button.primary {
+  padding: 15px 60px;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+
+@media (width <= 768px) {
+  .promo-hero .ph-inner {
+    padding-left: 24px;
+  }
+
+  .promo-hero .ph-photo::after {
+    width: 160px;
+    height: 180px;
+  }
+}
