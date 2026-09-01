@@ -140,5 +140,10 @@ main .partner-offer-container > div {
 
 .partner-offer.compact .po-intro,
 .partner-offer.compact .po-promo {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.partner-offer.compact .po-tiers {
+  gap: 35px;
+  margin-bottom: 35px;
 }
