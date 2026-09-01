@@ -17,7 +17,6 @@ header nav .utility-row {
   align-items: center;
   gap: 16px;
   padding-top: 12px;
-  height: 40px;
 }
 
 header nav .utility-row .points-note {
@@ -26,13 +25,15 @@ header nav .utility-row .points-note {
 
 header nav .utility-row .create-account {
   font-weight: 700;
+  padding: 0 4px;
 }
 
 header nav .utility-row .espanol {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
   font-size: 13.3px;
+  padding: 0 4px;
 }
 
 header nav .ic-globe {
@@ -73,7 +74,7 @@ header nav .nav-sections ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
@@ -85,7 +86,7 @@ header nav .nav-sections a {
   line-height: 1.25;
   text-transform: uppercase;
   color: var(--bold-blue);
-  padding: 0 4px 4px;
+  padding: 0 4px;
 }
 
 header nav .nav-sections a:hover {

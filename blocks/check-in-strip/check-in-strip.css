@@ -12,7 +12,7 @@ main .check-in-strip-container > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   list-style: none;
   padding: 16px var(--content-pad);
   margin: 0;
@@ -27,13 +27,14 @@ main .check-in-strip-container > div {
 .check-in-strip li:not(:first-child)::before {
   content: '|';
   color: rgb(255 255 255 / 50%);
-  margin-right: 14px;
+  margin-right: 16px;
 }
 
 .check-in-strip a {
   color: #fff;
   font-weight: 700;
   font-size: 16px;
+  padding: 0 4px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
