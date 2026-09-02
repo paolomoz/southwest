@@ -1,0 +1,59 @@
+/* feature-tiles — circular-image centered feature cards */
+main .feature-tiles-container > div {
+  max-width: 1211px;
+}
+
+.feature-tiles .ft-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 96px;
+  text-align: center;
+}
+
+.feature-tiles .ft-media img {
+  width: 198px;
+  height: 198px;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+.feature-tiles h3 {
+  color: var(--bold-blue);
+  font-size: 24px;
+  line-height: 1.25;
+  margin: 22px 0 10px;
+}
+
+.feature-tiles .ft-body {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 14px;
+}
+
+.feature-tiles .ft-cta {
+  margin: 6px 0 14px;
+}
+
+.feature-tiles .ft-cta a.button {
+  margin: 0;
+  padding: 11px 26px;
+  font-size: 14px;
+}
+
+.feature-tiles .ft-fine {
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: var(--ink-muted);
+  margin: 0;
+  text-align: center;
+}
+
+@media (width <= 900px) {
+  .feature-tiles .ft-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

@@ -629,3 +629,12 @@ main .section.prose p > a[href='#'] {
   font-weight: 400;
   text-decoration: underline;
 }
+
+/* centered — centered display headings between feature groups */
+main .section.centered h1,
+main .section.centered h2 {
+  text-align: center;
+  color: var(--midnight);
+  font-size: 40px;
+  margin: 26px 0 34px;
+}
