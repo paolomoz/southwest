@@ -83,6 +83,11 @@ main .feature-row-container > div {
 main .feature-row-container:has(.feature-row.signup) {
   padding-top: 16px;
 }
+
+main .feature-row-container:has(.feature-row.signup) > div {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .feature-row.signup .feature-card {
   display: grid;
   grid-template-columns: 463px 648px;
