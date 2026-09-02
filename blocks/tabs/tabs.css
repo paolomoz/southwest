@@ -1,0 +1,77 @@
+/* tabs — vertical tab list on navy ground, white content panel (about page) */
+main .tabs-container {
+  background: #1a2c80;
+  padding: 60px 0;
+}
+
+main .tabs-container > div {
+  max-width: 1211px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.tabs .tabs-shell {
+  display: grid;
+  grid-template-columns: 373px 1fr;
+  border-top: 3px solid var(--sunrise-yellow);
+}
+
+.tabs .tabs-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs .tabs-list [role='tab'] {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid rgb(255 255 255 / 35%);
+  color: var(--sunrise-yellow);
+  font: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  padding: 26px 22px;
+  cursor: pointer;
+}
+
+.tabs .tabs-list [role='tab'][aria-selected='true'] {
+  background: #fff;
+  color: var(--bold-blue);
+  border-bottom-color: transparent;
+}
+
+.tabs .tabs-panels {
+  background: #fff;
+  padding: 34px 40px;
+  min-height: 420px;
+}
+
+.tabs .tabs-panels h2,
+.tabs .tabs-panels h3 {
+  color: var(--bold-blue);
+  font-size: 19.2px;
+  margin: 18px 0 8px;
+}
+
+.tabs .tabs-panels h2:first-child,
+.tabs .tabs-panels h3:first-child {
+  margin-top: 0;
+}
+
+.tabs .tabs-panels p,
+.tabs .tabs-panels li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tabs .tabs-panels img {
+  max-width: 315px;
+  height: auto;
+  margin-top: 12px;
+}
+
+@media (width <= 900px) {
+  .tabs .tabs-shell {
+    grid-template-columns: 1fr;
+  }
+}

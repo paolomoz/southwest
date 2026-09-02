@@ -400,3 +400,78 @@ main .section.prose-compact li {
   line-height: 24px;
   margin-bottom: 12px;
 }
+
+/* about-hero — full-bleed hero with overlaid h1 (about page) */
+main .section.about-hero {
+  position: relative;
+}
+
+main .section.about-hero > div {
+  max-width: none;
+  padding: 0;
+}
+
+main .section.about-hero picture,
+main .section.about-hero img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+main .section.about-hero p {
+  margin: 0;
+}
+
+main .section.about-hero h1 {
+  position: absolute;
+  top: 76px;
+  left: 50%;
+  width: 1211px;
+  max-width: calc(100% - 48px);
+  transform: translateX(-50%);
+  color: var(--bold-blue);
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* stone — grey informational band (about page) */
+main .section.stone {
+  background: #e5e3e3;
+  padding: 40px 0 50px;
+}
+
+main .section.stone > div {
+  max-width: 1211px;
+}
+
+main .section.stone h2 {
+  color: var(--bold-blue);
+  font-size: 24px;
+  margin: 24px 0 12px;
+}
+
+main .section.stone p,
+main .section.stone li {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+main .section.stone ul {
+  padding-left: 22px;
+}
+
+main .section.stone li {
+  margin-bottom: 8px;
+}
+
+main .section.stone li a,
+main .section.stone .columns a:not(.button) {
+  font-weight: 700;
+}
+
+main .section.stone img {
+  max-width: 100%;
+  height: auto;
+}

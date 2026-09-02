@@ -1,0 +1,84 @@
+/* teaser-cards — grey caps-title photo cards straddling the about hero */
+main .teaser-cards-container {
+  background: var(--bold-blue);
+}
+
+main .teaser-cards-container > div {
+  max-width: 1211px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.teaser-cards {
+  margin-top: -115px;
+}
+
+.teaser-cards .tc-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.teaser-cards .tc-card {
+  display: block;
+  color: inherit;
+}
+
+.teaser-cards .tc-card:hover {
+  text-decoration: none;
+}
+
+.teaser-cards .tc-panel {
+  position: relative;
+  background: #e6e7e8;
+  padding: 16px 40px 16px 16px;
+  min-height: 115px;
+}
+
+.teaser-cards .tc-title {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--midnight);
+  margin-bottom: 6px;
+}
+
+.teaser-cards .tc-body {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--midnight);
+  margin: 0;
+}
+
+.teaser-cards .tc-chevron {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--sunrise-yellow);
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.teaser-cards .tc-media img {
+  width: 100%;
+  height: 209px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 3px solid var(--sunrise-yellow);
+}
+
+@media (width <= 900px) {
+  .teaser-cards .tc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .teaser-cards {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,70 @@
+/* quote — leadership pull-quote on royal-blue band (about page) */
+main .quote-container {
+  background: var(--bold-blue);
+}
+
+main .quote-container > div {
+  max-width: 1211px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.quote .q-wrap {
+  display: grid;
+  grid-template-columns: 1fr 292px;
+  gap: 60px;
+  align-items: center;
+  padding: 56px 90px 64px 110px;
+}
+
+.quote .q-copy {
+  text-align: center;
+  position: relative;
+}
+
+.quote .q-mark {
+  display: block;
+  color: var(--sunrise-yellow);
+  font-size: 64px;
+  line-height: 0.6;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.quote .q-text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 26px;
+}
+
+.quote .q-text em {
+  font-style: normal;
+  color: var(--sunrise-yellow);
+}
+
+.quote .q-attr {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+.quote .q-media img {
+  width: 292px;
+  height: 292px;
+  border-radius: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (width <= 900px) {
+  .quote .q-wrap {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+
+  .quote .q-media {
+    margin: 0 auto;
+  }
+}

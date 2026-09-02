@@ -1,0 +1,53 @@
+/* icon-links — light-blue shortcut band (about page resources/social) */
+main .icon-links-container {
+  background: #cfdcf6;
+  padding: 34px 0 40px;
+}
+
+main .icon-links-container > div {
+  max-width: 1211px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.icon-links .il-groups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.icon-links .il-group h2 {
+  text-align: center;
+  font-size: 24px;
+  color: var(--bold-blue);
+  margin: 0 0 26px;
+}
+
+.icon-links .il-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-links .il-group a {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  font-weight: 700;
+  color: var(--bold-blue);
+  font-size: 17px;
+}
+
+.icon-links .il-group img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+@media (width <= 900px) {
+  .icon-links .il-groups {
+    grid-template-columns: 1fr;
+  }
+}
