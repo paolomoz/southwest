@@ -1,11 +1,18 @@
 /* table — data tables (travel fees; live parity: navy heads, zebra body) */
 main .table-container > div {
   max-width: 1211px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+main .table-container {
+  padding: 6px 0;
 }
 
 .table table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
   font-size: 16px;
   line-height: 24px;
 }
