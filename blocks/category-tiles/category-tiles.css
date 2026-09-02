@@ -126,8 +126,14 @@ main .category-tiles-container {
   padding: 0 8px;
   position: absolute;
   inset: 0;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-tiles.strip .ct-label > span {
+  display: block;
 }
 
 main .category-tiles-container:has(.category-tiles.strip) {
