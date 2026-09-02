@@ -1,0 +1,30 @@
+/* breadcrumb — inner-page path nav */
+main .breadcrumb-container {
+  padding-top: 2px;
+}
+
+.breadcrumb ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.breadcrumb li:not(:first-child)::before {
+  content: '/';
+  margin-right: 6px;
+  color: var(--ink-muted);
+}
+
+.breadcrumb a {
+  font-weight: 700;
+  color: var(--bold-blue);
+}
+
+.breadcrumb [aria-current] {
+  color: var(--midnight);
+}

@@ -296,8 +296,20 @@ main .section.dark h3 {
 }
 
 /* rapid-rewards template — slim chrome height + terms default-content style */
-body.rapid-rewards {
+body.rapid-rewards,
+body.inner {
   --nav-height: 101px;
+}
+
+/* inner-template narrow content column + regular-weight page h1 (live parity) */
+.inner main > .section > div {
+  max-width: 1110px;
+}
+
+.inner main h1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 18px 0 10px;
 }
 
 .rapid-rewards main .section.terms {

@@ -1,0 +1,76 @@
+/* category-tiles — square image link tiles (hub pages) */
+.category-tiles .ct-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 256px);
+  gap: 16px;
+}
+
+.category-tiles .ct-grid a {
+  position: relative;
+  display: block;
+  width: 256px;
+  height: 256px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.category-tiles .ct-grid img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-tiles .ct-label {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 27.2px;
+  text-align: center;
+  padding: 0 14px;
+}
+
+.category-tiles .ct-grid a:hover .ct-label {
+  text-decoration: underline;
+}
+
+.category-tiles .ct-ext {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.category-tiles .ct-ext svg {
+  width: 18px;
+  height: 18px;
+  vertical-align: -2px;
+}
+
+@media (width <= 1120px) {
+  .category-tiles .ct-grid {
+    grid-template-columns: repeat(2, 256px);
+    justify-content: center;
+  }
+}
+
+@media (width <= 600px) {
+  .category-tiles .ct-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .category-tiles .ct-grid a {
+    width: 100%;
+    height: 160px;
+  }
+
+  .category-tiles .ct-label {
+    font-size: 18px;
+  }
+}
