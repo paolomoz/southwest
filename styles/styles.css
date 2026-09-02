@@ -352,3 +352,51 @@ body.inner {
     padding: 0 var(--content-pad);
   }
 }
+
+/* prose style — long-form legal/informational default content (live: 18/27, 40px h1) */
+main .section.prose > div,
+main .section.prose-compact > div {
+  max-width: 1211px;
+}
+
+.inner main .section.prose h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 18px 0 8px;
+}
+
+main .section.prose h2 {
+  font-size: 32px;
+  margin: 44px 0 8px;
+}
+
+main .section.prose h3 {
+  font-size: 22px;
+  margin: 26px 0 8px;
+}
+
+main .section.prose p,
+main .section.prose li {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 14px;
+}
+
+/* compact prose (fee tables page: live 16/24, 42px h1, 26px h2) */
+.inner main .section.prose-compact h1 {
+  font-size: 42px;
+  font-weight: 400;
+  margin: 18px 0 16px;
+}
+
+main .section.prose-compact h2 {
+  font-size: 26px;
+  margin: 16px 0;
+}
+
+main .section.prose-compact p,
+main .section.prose-compact li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
