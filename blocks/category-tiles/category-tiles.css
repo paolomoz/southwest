@@ -18,6 +18,7 @@ main .category-tiles-container {
   height: 256px;
   overflow: hidden;
   border-radius: 2px;
+  opacity: 0.8; /* live parity: whole tile at 80% over white ground */
 }
 
 .category-tiles .ct-grid img {
