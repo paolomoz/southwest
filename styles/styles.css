@@ -303,7 +303,7 @@ body.inner {
 
 /* inner-template narrow content column + regular-weight page h1 (live parity) */
 .inner main > .section > div {
-  max-width: 1110px;
+  max-width: 1158px;
 }
 
 .inner main h1 {

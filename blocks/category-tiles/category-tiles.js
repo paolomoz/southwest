@@ -36,6 +36,10 @@ export default function decorate(block) {
       tile.target = '_blank';
       tile.rel = 'noopener';
     }
+    const explore = document.createElement('span');
+    explore.className = 'ct-explore';
+    explore.textContent = 'Explore';
+    label.append(explore);
     tile.append(label);
     li.append(tile);
     grid.append(li);
