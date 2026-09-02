@@ -130,3 +130,8 @@ main .promo-cards-container {
     grid-template-columns: 1fr;
   }
 }
+
+/* flush variant — pages where the pill overlaps the image (no chip zone) */
+.promo-cards.flush .pc-media {
+  margin-top: 0;
+}

@@ -263,7 +263,11 @@ main .feature-row-container:has(.feature-row.signup) > div {
 
 .feature-row.texts .feature-copy {
   background: #fff;
-  padding: 30px 32px;
+  padding: 30px 10px 30px 32px;
+}
+
+.feature-row.texts .feature-copy h2 {
+  text-wrap: initial;
 }
 
 .feature-row.texts .feature-copy h2 {
