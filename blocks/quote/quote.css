@@ -14,7 +14,7 @@ main .quote-container > div {
   grid-template-columns: 1fr 292px;
   gap: 60px;
   align-items: center;
-  padding: 56px 90px 64px 110px;
+  padding: 62px 90px 70px 110px;
 }
 
 .quote .q-copy {

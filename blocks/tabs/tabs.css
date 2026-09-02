@@ -43,7 +43,7 @@ main .tabs-container > div {
 .tabs .tabs-panels {
   background: #fff;
   padding: 34px 40px;
-  min-height: 420px;
+  min-height: 560px;
 }
 
 .tabs .tabs-panels h2,

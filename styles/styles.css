@@ -415,7 +415,7 @@ main .section.about-hero picture,
 main .section.about-hero img {
   display: block;
   width: 100%;
-  height: 360px;
+  height: 480px;
   object-fit: cover;
 }
 
@@ -439,7 +439,7 @@ main .section.about-hero h1 {
 /* stone — grey informational band (about page) */
 main .section.stone {
   background: #e5e3e3;
-  padding: 40px 0 50px;
+  padding: 52px 0 64px;
 }
 
 main .section.stone > div {
