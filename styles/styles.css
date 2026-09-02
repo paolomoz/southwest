@@ -502,9 +502,16 @@ main .section.card > div:last-child {
 }
 
 /* wider inter-card gaps around the tile/benefit cards (live rhythm) */
-main .section.card.pull,
+main .section.card.pull {
+  padding-bottom: 106px;
+}
+
 main .section.card:has(.info-tiles) {
-  padding-bottom: 80px;
+  padding-bottom: 136px;
+}
+
+main .section.card:has(.columns) {
+  padding-bottom: 20px;
 }
 
 main .section.card:has(.info-tiles) > div,
@@ -519,7 +526,7 @@ main .section.card:has(.info-tiles) h2 {
 /* awards columns: narrow logo column */
 main .section.card .columns.awards > div {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 255px 1fr;
   gap: 40px;
   align-items: center;
   border-top: 1px solid var(--hairline);
@@ -541,7 +548,7 @@ main .section.card > .default-content-wrapper > p {
   font-size: 16px;
   line-height: 26px;
   border-bottom: 1px solid var(--hairline);
-  padding-bottom: 45px;
+  padding-bottom: 51px;
   margin-bottom: 24px;
 }
 
@@ -567,7 +574,7 @@ main .section.footnotes > div {
 
 main .section.footnotes h2 {
   font-size: 32px;
-  margin: 0 0 22px;
+  margin: 0 0 28px;
 }
 
 main .section.footnotes p {

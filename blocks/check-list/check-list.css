@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 26px;
+  gap: 28px;
 }
 
 .check-list .cl-list li {
