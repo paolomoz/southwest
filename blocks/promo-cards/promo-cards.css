@@ -9,7 +9,7 @@ main .promo-cards-container {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 350px);
-  gap: 24px 30px;
+  gap: 0 30px;
 }
 
 .promo-cards a.pc-card {
@@ -108,7 +108,7 @@ main .promo-cards-container {
   color: var(--bold-blue);
   font-weight: 700;
   font-size: 16px;
-  margin: 0 0 40px;
+  margin: 0 0 22px;
 }
 
 .promo-cards .pc-cta::after {

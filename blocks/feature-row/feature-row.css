@@ -374,7 +374,7 @@ main .feature-row-container:has(.feature-row.texts) > div {
 }
 
 main .feature-row-container:has(.feature-row.promo) {
-  padding-top: 28px;
+  padding-top: 0;
 }
 
 main .feature-row-container:has(.feature-row.promo) > div {
