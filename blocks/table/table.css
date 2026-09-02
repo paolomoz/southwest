@@ -1,0 +1,31 @@
+/* table — data tables (travel fees) */
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.table th,
+.table td {
+  border: 1px solid var(--hairline);
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table th {
+  background: var(--panel);
+  color: var(--midnight);
+  font-weight: 700;
+}
+
+.table td p {
+  margin: 0;
+}
+
+@media (width <= 700px) {
+  .table {
+    overflow-x: auto;
+  }
+}
