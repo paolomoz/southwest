@@ -9,7 +9,7 @@ main .feature-tiles-container > div {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 60px 96px;
+  gap: 10px 96px;
   text-align: center;
 }
 
