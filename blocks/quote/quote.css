@@ -14,7 +14,7 @@ main .quote-container > div {
   grid-template-columns: 1fr 292px;
   gap: 60px;
   align-items: center;
-  padding: 62px 90px 70px 110px;
+  padding: 0 90px 100px 110px;
 }
 
 .quote .q-copy {
@@ -28,7 +28,7 @@ main .quote-container > div {
   font-size: 64px;
   line-height: 0.6;
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-bottom: 36px;
 }
 
 .quote .q-text {
@@ -36,7 +36,7 @@ main .quote-container > div {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  margin: 0 0 26px;
+  margin: 0 0 48px;
 }
 
 .quote .q-text em {

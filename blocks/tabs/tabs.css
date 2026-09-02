@@ -1,7 +1,7 @@
 /* tabs — vertical tab list on navy ground, white content panel (about page) */
 main .tabs-container {
   background: #1a2c80;
-  padding: 60px 0;
+  padding: 90px 0 60px;
 }
 
 main .tabs-container > div {
@@ -42,7 +42,7 @@ main .tabs-container > div {
 
 .tabs .tabs-panels {
   background: #fff;
-  padding: 34px 40px;
+  padding: 42px 40px 34px;
   min-height: 560px;
 }
 
