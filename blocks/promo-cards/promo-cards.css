@@ -50,10 +50,8 @@ main .promo-cards-container {
 
 .promo-cards .pc-media.pc-logo img {
   position: static;
-  width: auto;
-  height: auto;
-  max-width: 58%;
-  max-height: 45%;
+  width: 218px;
+  height: 110px;
   object-fit: contain;
 }
 

@@ -25,14 +25,36 @@ export default function decorate(block) {
     }
     const label = document.createElement('span');
     label.className = 'ct-label';
-    label.textContent = a.textContent.trim();
+    const text = a.textContent.trim();
     let external = false;
     try { external = new URL(tile.href, window.location.href).hostname !== 'www.southwest.com' && !tile.href.startsWith('/'); } catch { /* relative */ }
+    if (block.classList.contains('strip')) {
+      // live parity: strip labels always break before the last word,
+      // external glyph inline after it
+      const words = text.split(/\s+/);
+      const last = words.pop();
+      const line1 = document.createElement('span');
+      line1.textContent = words.join(' ');
+      const line2 = document.createElement('span');
+      line2.textContent = words.length ? last : '';
+      if (!words.length) line1.textContent = last;
+      label.append(line1, document.createElement('br'), line2);
+      if (external) {
+        const ic = document.createElement('span');
+        ic.className = 'ct-ext';
+        ic.innerHTML = EXT_ICON;
+        line2.append(ic);
+      }
+    } else {
+      label.textContent = text;
+      if (external) {
+        const ic = document.createElement('span');
+        ic.className = 'ct-ext';
+        ic.innerHTML = EXT_ICON;
+        label.append(ic);
+      }
+    }
     if (external) {
-      const ic = document.createElement('span');
-      ic.className = 'ct-ext';
-      ic.innerHTML = EXT_ICON;
-      label.append(ic);
       tile.target = '_blank';
       tile.rel = 'noopener';
     }

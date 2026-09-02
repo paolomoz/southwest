@@ -122,8 +122,17 @@ main .category-tiles-container {
 
 .category-tiles.strip .ct-label {
   font-size: 20px;
-  line-height: 1.2;
-  padding: 0 10px;
+  line-height: 1.25;
+  padding: 0 8px;
+  display: block;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+}
+
+.category-tiles.strip .ct-ext {
+  margin-left: 7px;
 }
 
 .category-tiles.strip .ct-explore {
