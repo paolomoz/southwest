@@ -367,7 +367,7 @@ main .section.prose-compact > div {
 
 main .section.prose h2 {
   font-size: 32px;
-  margin: 44px 0 8px;
+  margin: 36px 0 8px;
 }
 
 main .section.prose h3 {
@@ -379,7 +379,7 @@ main .section.prose p,
 main .section.prose li {
   font-size: 18px;
   line-height: 27px;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 /* compact prose (fee tables page: live 16/24, 42px h1, 26px h2) */
