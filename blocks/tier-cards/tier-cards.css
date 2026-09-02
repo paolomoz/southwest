@@ -1,0 +1,58 @@
+/* tier-cards — colored-bar tier summary trio */
+.tier-cards .tc3-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.tier-cards .tc3-bar {
+  padding: 18px 24px;
+  font-size: 19.2px;
+  font-weight: 700;
+}
+
+.tier-cards .tc3-0 .tc3-bar {
+  background: #c0cdd6;
+  color: var(--midnight);
+}
+
+.tier-cards .tc3-1 .tc3-bar {
+  background: #5e7e95;
+  color: #fff;
+}
+
+.tier-cards .tc3-2 .tc3-bar {
+  background: #111b40;
+  color: #fff;
+}
+
+.tier-cards .tc3-body {
+  border: 1px solid var(--hairline);
+  border-top: 0;
+  padding: 28px 26px 30px;
+  display: grid;
+  gap: 16px;
+}
+
+.tier-cards .tc3-body p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.tier-cards .tc3-cta {
+  justify-self: stretch;
+  text-align: center;
+  margin: 10px 12px 0;
+  padding: 13px 0;
+  font-size: 14px;
+}
+
+@media (width <= 900px) {
+  .tier-cards .tc3-grid {
+    grid-template-columns: 1fr;
+  }
+}

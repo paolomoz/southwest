@@ -1,0 +1,104 @@
+/* tier-detail — stats card + grey perk list */
+main .tier-detail-container {
+  background: #1a2c80;
+  padding: 0 0 28px;
+}
+
+main .tier-detail-container > div {
+  max-width: 1235px;
+  padding: 0 24px;
+}
+
+.tier-detail .td-shell {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  background: #fff;
+  border-left: 36px solid #c0cdd6;
+}
+
+.tier-detail .td-stats {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.tier-detail .td-stats h3 {
+  color: var(--bold-blue);
+  font-size: 25.6px;
+  margin: 0 0 34px;
+}
+
+.tier-detail .td-numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0 30px;
+}
+
+.tier-detail .td-num {
+  display: grid;
+  gap: 2px;
+  padding: 8px 0;
+}
+
+.tier-detail .td-num:first-child {
+  border-right: 1px solid var(--hairline);
+}
+
+.tier-detail .td-num b {
+  color: var(--bold-blue);
+  font-size: 41.6px;
+  line-height: 1.1;
+}
+
+.tier-detail .td-num span {
+  font-size: 16px;
+}
+
+.tier-detail .td-caption {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+  max-width: 46ch;
+}
+
+.tier-detail .td-perks {
+  background: #e6e7e8;
+  padding: 44px 40px;
+}
+
+.tier-detail .td-perks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+
+.tier-detail .td-perks li {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 16px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.tier-detail .td-icon img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+@media (width <= 900px) {
+  .tier-detail .td-shell {
+    grid-template-columns: 1fr;
+    border-left-width: 12px;
+  }
+}
+
+.tier-detail.a-list-preferred .td-shell {
+  border-left-color: #5e7e95;
+}
+
+.tier-detail.companion-pass .td-shell {
+  border-left-color: #111b40;
+}
