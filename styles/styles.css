@@ -511,7 +511,15 @@ main .section.card:has(.info-tiles) {
 }
 
 main .section.card:has(.columns) {
-  padding-bottom: 20px;
+  padding-bottom: 75px;
+}
+
+main .section.card:has(.columns) > div:first-child {
+  padding-top: 24px;
+}
+
+main .section.card:has(.columns) h2 {
+  margin-bottom: 8px;
 }
 
 main .section.card:has(.info-tiles) > div,
@@ -520,7 +528,7 @@ main .section.card:has(.columns) > div {
 }
 
 main .section.card:has(.info-tiles) h2 {
-  margin-bottom: 0;
+  margin-bottom: 29px;
 }
 
 /* awards columns: narrow logo column */
@@ -530,7 +538,7 @@ main .section.card .columns.awards > div {
   gap: 40px;
   align-items: center;
   border-top: 1px solid var(--hairline);
-  padding-top: 24px;
+  padding-top: 0;
 }
 
 main .section.card .columns.awards img {
