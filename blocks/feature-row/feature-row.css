@@ -80,6 +80,9 @@ main .feature-row-container > div {
 }
 
 /* signup variant — hub acquisition band: midnight panel left, image right */
+main .feature-row-container:has(.feature-row.signup) {
+  padding-top: 16px;
+}
 .feature-row.signup .feature-card {
   display: grid;
   grid-template-columns: 463px 648px;
@@ -112,8 +115,22 @@ main .feature-row-container > div {
   margin: 0;
 }
 
-.feature-row.signup .feature-copy .feature-ctas {
+.feature-row.signup .feature-copy .actions {
   margin-top: auto;
+}
+
+.feature-row.signup .feature-copy .actions p {
+  margin: 0;
+}
+
+/* CTA is a plain bold link on live, not a button */
+.feature-row.signup .feature-copy .actions a.button {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .feature-row.signup .feature-copy a {

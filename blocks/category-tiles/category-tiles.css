@@ -1,4 +1,7 @@
 /* category-tiles — square image link tiles (hub pages) */
+main .category-tiles-container {
+  padding-top: 24px;
+}
 .category-tiles .ct-grid {
   list-style: none;
   margin: 0;
