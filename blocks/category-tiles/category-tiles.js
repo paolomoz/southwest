@@ -40,6 +40,10 @@ export default function decorate(block) {
     explore.className = 'ct-explore';
     explore.textContent = 'Explore';
     label.append(explore);
+    try {
+      const dest = new URL(tile.href, window.location.href).pathname.replace(/\/$/, '');
+      if (dest && window.location.pathname.replace(/\/$/, '') === dest) tile.classList.add('ct-active');
+    } catch { /* external */ }
     tile.append(label);
     li.append(tile);
     grid.append(li);

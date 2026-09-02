@@ -176,3 +176,127 @@ main .feature-row-container:has(.feature-row.signup) > div {
     order: 0;
   }
 }
+
+/* chase variant — light credit-card band (loyalty offers) */
+.feature-row.chase .feature-card {
+  display: grid;
+  grid-template-columns: 418px 587px;
+  align-items: stretch;
+  max-width: 1005px;
+  margin: 0 auto;
+  min-height: 320px;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.feature-row.chase .feature-copy {
+  background: #e9e9e9;
+  color: #000;
+  padding: 36px 32px 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.feature-row.chase .feature-copy h2 {
+  color: #000;
+  font-size: 35px;
+  margin: 0 0 14px;
+}
+
+.feature-row.chase .feature-copy p {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.feature-row.chase .feature-copy p:nth-of-type(2) {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.feature-row.chase .feature-copy .actions {
+  margin-top: auto;
+}
+
+.feature-row.chase .feature-copy .actions p {
+  margin: 0;
+}
+
+.feature-row.chase .feature-copy .actions a.button {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.feature-row.chase .feature-copy .actions a::after {
+  content: '\203A';
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.feature-row.chase .feature-media {
+  order: 2;
+}
+
+.feature-row.chase .feature-media img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+/* texts variant — fare-alerts SMS band (partner offers): white bordered panel */
+.feature-row.texts .feature-card {
+  display: grid;
+  grid-template-columns: 452px 612px;
+  align-items: stretch;
+  max-width: 1064px;
+  margin: 0 auto;
+  min-height: 280px;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid var(--hairline);
+}
+
+.feature-row.texts .feature-copy {
+  background: #fff;
+  padding: 30px 32px;
+}
+
+.feature-row.texts .feature-copy h2 {
+  color: #1a2c80;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0 0 22px;
+}
+
+.feature-row.texts .feature-copy p {
+  color: #1a2c80;
+  font-size: 20.8px;
+  margin: 0;
+}
+
+.feature-row.texts .feature-media {
+  order: 2;
+}
+
+.feature-row.texts .feature-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main .feature-row-container:has(.feature-row.chase),
+main .feature-row-container:has(.feature-row.texts) {
+  padding-top: 16px;
+}
+
+main .feature-row-container:has(.feature-row.chase) > div,
+main .feature-row-container:has(.feature-row.texts) > div {
+  padding-top: 0;
+  padding-bottom: 0;
+}

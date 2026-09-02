@@ -107,3 +107,46 @@ main .category-tiles-container {
     font-size: 18px;
   }
 }
+
+/* strip variant — compact 8-up section nav on listing pages */
+.category-tiles.strip .ct-grid {
+  grid-template-columns: repeat(8, 1fr);
+  gap: 4px;
+  max-width: 1110px;
+}
+
+.category-tiles.strip .ct-grid a {
+  width: auto;
+  height: 120px;
+}
+
+.category-tiles.strip .ct-label {
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 0 10px;
+}
+
+.category-tiles.strip .ct-explore {
+  display: none;
+}
+
+.category-tiles.strip .ct-ext svg {
+  width: 14px;
+  height: 14px;
+}
+
+.category-tiles.strip .ct-grid a.ct-active {
+  opacity: 1;
+}
+
+.category-tiles.strip .ct-grid a.ct-active::before {
+  background: var(--midnight);
+  mix-blend-mode: normal;
+  opacity: 0.82;
+}
+
+@media (width <= 900px) {
+  .category-tiles.strip .ct-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
