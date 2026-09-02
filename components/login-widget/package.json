@@ -5,7 +5,7 @@
   "description": "Shared React login component (demo) — bundled offline, consumed by the EDS site as a committed ESM artifact",
   "type": "module",
   "scripts": {
-    "build": "esbuild src/index.jsx --bundle --format=esm --minify --jsx=automatic --outfile=dist/login-widget.bundle.js"
+    "build": "esbuild src/index.jsx --bundle --format=esm --minify --keep-names --jsx=automatic --outfile=dist/login-widget.bundle.js"
   },
   "devDependencies": {
     "esbuild": "^0.24.0",
