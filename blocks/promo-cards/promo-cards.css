@@ -1,6 +1,6 @@
 /* promo-cards — offer card grid (special-offers listings) */
 main .promo-cards-container {
-  padding-top: 22px;
+  padding-top: 2px;
 }
 
 .promo-cards .pc-grid {
@@ -39,13 +39,21 @@ main .promo-cards-container {
 
 .promo-cards .pc-media.pc-logo {
   border: 1px solid var(--hairline);
+}
+
+.promo-cards .pc-media.pc-logo picture {
+  position: absolute;
+  inset: 0;
   display: grid;
   place-items: center;
 }
 
 .promo-cards .pc-media.pc-logo img {
-  width: 55%;
+  position: static;
+  width: auto;
   height: auto;
+  max-width: 58%;
+  max-height: 45%;
   object-fit: contain;
 }
 
