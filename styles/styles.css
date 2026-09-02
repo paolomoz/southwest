@@ -638,3 +638,73 @@ main .section.centered h2 {
   font-size: 40px;
   margin: 58px 0 34px;
 }
+
+/* transact template — narrow transactional column (live: ~940px @ x250) */
+body.transact {
+  --nav-height: 101px;
+}
+
+.transact main > .section > div {
+  max-width: 990px;
+}
+
+.transact main h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--midnight);
+  margin: 22px 0 18px;
+}
+
+/* advisory — bordered info note (REAL ID) */
+main .section.advisory > div {
+  border: 1px solid var(--hairline);
+  padding: 16px 20px;
+  margin-top: 20px;
+}
+
+main .section.advisory p {
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* with-rail — form panel + merchandising rail side by side */
+main .section.with-rail {
+  display: grid;
+  grid-template-columns: 1fr 356px;
+  gap: 26px;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+main .section.with-rail > div {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* grey prose block (Please Note / terms on transact pages) */
+.transact main .section.notes h2 {
+  color: #63666a;
+  font-size: 28px;
+  margin: 30px 0 12px;
+}
+
+.transact main .section.notes p,
+.transact main .section.notes li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #464646;
+}
+
+main .section.with-rail.single {
+  grid-template-columns: minmax(0, 640px);
+  justify-content: start;
+}
+
+@media (width <= 900px) {
+  main .section.with-rail {
+    grid-template-columns: 1fr;
+  }
+}
