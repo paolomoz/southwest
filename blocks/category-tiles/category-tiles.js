@@ -38,7 +38,7 @@ export default function decorate(block) {
       const line2 = document.createElement('span');
       line2.textContent = words.length ? last : '';
       if (!words.length) line1.textContent = last;
-      label.append(line1, document.createElement('br'), line2);
+      label.append(line1, line2);
       if (external) {
         const ic = document.createElement('span');
         ic.className = 'ct-ext';

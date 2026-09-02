@@ -132,8 +132,12 @@ main .category-tiles-container {
   justify-content: center;
 }
 
-.category-tiles.strip .ct-label > span {
+.category-tiles.strip .ct-label > span:not(.ct-explore) {
   display: block;
+}
+
+.category-tiles.strip .ct-label .ct-explore {
+  display: none;
 }
 
 main .category-tiles-container:has(.category-tiles.strip) {
