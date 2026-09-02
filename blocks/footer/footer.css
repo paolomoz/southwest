@@ -16,7 +16,7 @@ footer .email-band {
   grid-template-columns: 1fr 1.2fr 1.2fr auto;
   gap: 48px;
   align-items: start;
-  padding: 46px 0 29px;
+  padding: 46px 0 22px;
 }
 
 footer .email-band a {
