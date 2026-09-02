@@ -12,6 +12,7 @@ main .table-container {
 .table table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed; /* live: equal columns regardless of content */
   font-size: 16px;
   line-height: 24px;
 }

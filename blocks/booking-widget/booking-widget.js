@@ -65,8 +65,13 @@ const TEMPLATE = `
 export default async function decorate(block) {
   // collect authored content (query-based, #42/#62)
   const heading = block.querySelector('h1, h2, h3');
+  const heroPic = block.querySelector('picture, img');
   const ps = [...block.querySelectorAll('p')];
-  const lede = ps.find((p) => !p.querySelector('a') && p.textContent.trim());
+  const isPrice = (p) => /^\$\d/.test(p.textContent.trim());
+  const isLegal = (p) => p.textContent.trim().startsWith('*');
+  const price = ps.find(isPrice);
+  const legal = ps.find(isLegal);
+  const lede = ps.find((p) => !p.querySelector('a') && p.textContent.trim() && !isPrice(p) && !isLegal(p) && !p.querySelector('picture, img'));
   const ctas = ps.filter((p) => p.querySelector('a'));
 
   const shell = document.createElement('div');
@@ -80,12 +85,30 @@ export default async function decorate(block) {
     [...inner.childNodes].forEach((n) => h1.append(n.cloneNode(true)));
     copy.append(h1);
   }
+  if (heroPic) {
+    const img = heroPic.tagName === 'IMG' ? heroPic : heroPic.querySelector('img');
+    if (img) block.closest('.section').style.backgroundImage = `url('${img.src}')`;
+    block.classList.add('campaign');
+  }
   if (lede) {
     const p = document.createElement('p');
     p.className = 'lede';
     p.textContent = lede.textContent.trim();
     copy.append(p);
   }
+  if (price) {
+    const pp = document.createElement('p');
+    pp.className = 'fare-price';
+    [...price.childNodes].forEach((n) => pp.append(n.cloneNode(true)));
+    copy.append(pp);
+  }
+  if (legal) {
+    const lp = document.createElement('p');
+    lp.className = 'fare-legal';
+    lp.textContent = legal.textContent.trim();
+    copy.append(lp);
+  }
+
   ctas.forEach((p) => copy.append(p.cloneNode(true)));
 
   block.replaceChildren(shell);

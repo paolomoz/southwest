@@ -1,0 +1,61 @@
+/* legal-index — sidebar doc nav + numbered anchor index (legal pages) */
+main .legal-index-container > div {
+  max-width: 1211px;
+}
+
+.legal-index .li-shell {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 30px;
+  border-top: 1px solid var(--hairline);
+  padding-top: 34px;
+}
+
+.legal-index .li-side ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 34px;
+}
+
+.legal-index .li-side a {
+  font-size: 18px;
+  color: var(--bold-blue);
+}
+
+.legal-index .li-side a.li-current {
+  text-decoration: underline;
+}
+
+.legal-index .li-index h2 {
+  font-size: 18px;
+  color: var(--midnight);
+  margin: 0 0 18px;
+}
+
+.legal-index .li-index ol {
+  columns: 2;
+  column-gap: 60px;
+  margin: 0;
+  padding-left: 22px;
+}
+
+.legal-index .li-index li {
+  margin-bottom: 10px;
+  break-inside: avoid;
+  font-size: 16px;
+}
+
+.legal-index .li-index a {
+  color: var(--bold-blue);
+  text-decoration: underline;
+}
+
+@media (width <= 900px) {
+  .legal-index .li-shell {
+    grid-template-columns: 1fr;
+  }
+}

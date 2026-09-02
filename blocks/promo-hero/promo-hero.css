@@ -14,7 +14,7 @@ main .promo-hero-container > div {
 
 .promo-hero .ph-photo {
   position: relative;
-  height: 499px;
+  height: 34.65vw; /* live: 499px @ 1440, width-proportional */
   overflow: hidden;
 }
 
@@ -53,6 +53,10 @@ main .promo-hero-container > div {
   position: absolute;
   inset: 0;
   z-index: 3;
+}
+
+.promo-hero:not(.flagship, .banner) .ph-copy {
+  height: 34.65vw;
 }
 
 .promo-hero .ph-inner {
@@ -100,7 +104,7 @@ main .promo-hero-container > div {
 /* short variant — compact program hero (dollar template: 441px photo, inverted scrim) */
 .promo-hero.short .ph-photo,
 .promo-hero.short .ph-copy {
-  height: 441px;
+  height: 30.63vw; /* live: 441px @ 1440 */
 }
 
 .promo-hero.short .ph-photo::before {

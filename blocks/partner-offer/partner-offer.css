@@ -7,7 +7,7 @@ main .partner-offer-container {
 main .partner-offer-container > div {
   max-width: none;
   padding: 0;
-  margin-top: -83px;
+  margin-top: -5.76vw; /* live: -83px @ 1440, scales with the hero */
 }
 
 .partner-offer .po-card {

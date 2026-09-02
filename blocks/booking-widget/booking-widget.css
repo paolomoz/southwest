@@ -277,3 +277,38 @@ main .booking-widget-container > div {
     padding-block: 10px;
   }
 }
+
+/* campaign variant — dark authored hero creative (bg image set by decorate) */
+main .section:has(.booking-widget.campaign) {
+  background-size: cover;
+  background-position: center top;
+}
+
+.booking-widget.campaign .hero-copy h1 {
+  color: var(--sunrise-yellow);
+  font-size: 35.2px;
+  line-height: 1.2;
+}
+
+.booking-widget.campaign .hero-copy .lede {
+  color: #fff;
+  font-size: 14.4px;
+  font-weight: 700;
+  margin: 22px 0 0;
+}
+
+.booking-widget.campaign .hero-copy .fare-price {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 8px;
+}
+
+.booking-widget.campaign .hero-copy .fare-legal {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0 0 18px;
+  max-width: 56ch;
+}
