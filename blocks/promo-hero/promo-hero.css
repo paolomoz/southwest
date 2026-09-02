@@ -106,3 +106,74 @@ main .promo-hero-container > div {
 .promo-hero.short .ph-photo::before {
   background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 10%));
 }
+
+/* flagship variant — rapid-rewards program hero (winglet, yellow em in h1) */
+.promo-hero.flagship .ph-photo,
+.promo-hero.flagship .ph-copy {
+  height: 500px;
+}
+
+.promo-hero.flagship .ph-photo::before,
+.promo-hero.flagship .ph-photo::after {
+  content: none;
+}
+
+.promo-hero.flagship .ph-inner {
+  padding: 86px 24px 0 115px;
+}
+
+.promo-hero.flagship h1 {
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.promo-hero.flagship h1 em {
+  font-style: normal;
+  color: var(--sunrise-yellow);
+}
+
+.promo-hero.flagship .ph-lede {
+  max-width: 720px;
+  margin-bottom: 26px;
+}
+
+/* banner variant — slim photo CTA band (account acquisition) */
+.promo-hero.banner .ph-photo,
+.promo-hero.banner .ph-copy {
+  height: 208px;
+}
+
+.promo-hero.banner .ph-photo::before,
+.promo-hero.banner .ph-photo::after {
+  content: none;
+}
+
+.promo-hero.banner .ph-inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  align-items: center;
+  padding: 60px 100px 0 220px;
+}
+
+.promo-hero.banner h1,
+.promo-hero.banner h2 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 1.3;
+  margin: 0 0 6px;
+  grid-column: 1;
+}
+
+.promo-hero.banner .ph-lede {
+  font-size: 16px;
+  margin: 0;
+  grid-column: 1;
+}
+
+.promo-hero.banner a.button.primary {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  padding: 15px 40px;
+}

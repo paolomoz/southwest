@@ -475,3 +475,73 @@ main .section.stone img {
   max-width: 100%;
   height: auto;
 }
+
+/* card — white content card floating on navy ground (rapid-rewards program) */
+main .section.card {
+  background: #1a2c80;
+  padding: 0 0 44px;
+}
+
+main .section.card:first-of-type,
+main .section.card + .section.card {
+  padding-top: 0;
+}
+
+main .section.card > div {
+  max-width: 1211px;
+  background: #fff;
+  padding: 44px 60px 40px;
+}
+
+main .section.card > div:first-child {
+  padding-top: 44px;
+}
+
+main .section.card > .default-content-wrapper + div {
+  padding-top: 0;
+  margin-top: -14px;
+}
+
+main .section.card h2 {
+  color: var(--bold-blue);
+  font-size: 28.8px;
+  margin: 0 0 16px;
+}
+
+main .section.card > .default-content-wrapper > p {
+  font-size: 16px;
+  line-height: 26px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 28px;
+  margin-bottom: 4px;
+}
+
+/* card-pull: overlap the hero above (benefits card) */
+main .section.card.pull > div:first-child {
+  position: relative;
+  z-index: 3;
+}
+
+main .section.card.pull {
+  margin-top: -110px;
+}
+
+/* footnotes — important-information legal block */
+main .section.footnotes {
+  padding: 40px 0 30px;
+}
+
+main .section.footnotes > div {
+  max-width: 1211px;
+}
+
+main .section.footnotes h2 {
+  font-size: 32px;
+  margin: 0 0 22px;
+}
+
+main .section.footnotes p {
+  font-size: 12px;
+  line-height: 19px;
+  margin-bottom: 14px;
+}

@@ -1,0 +1,59 @@
+/* info-tiles — light-blue icon tiles (rapid-rewards partner actions) */
+.info-tiles .it-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.info-tiles .it-grid li {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 22px;
+  background: #cfdcf6;
+  padding: 30px 28px 26px;
+}
+
+.info-tiles .it-icon img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.info-tiles h3 {
+  font-size: 17.6px;
+  font-weight: 700;
+  color: var(--midnight);
+  margin: 0 0 10px;
+}
+
+.info-tiles p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 18px;
+}
+
+.info-tiles .it-cta {
+  display: inline-block;
+  border: 1px solid var(--bold-blue);
+  color: var(--bold-blue);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 34px;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.info-tiles .it-cta:hover {
+  text-decoration: none;
+  background: var(--bold-blue);
+  color: #fff;
+}
+
+@media (width <= 900px) {
+  .info-tiles .it-grid {
+    grid-template-columns: 1fr;
+  }
+}

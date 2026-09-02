@@ -1,0 +1,36 @@
+/* check-list — checkmark benefits (rapid-rewards) */
+.check-list .cl-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 26px;
+}
+
+.check-list .cl-list li {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  gap: 16px;
+}
+
+.check-list .cl-mark {
+  color: var(--midnight);
+}
+
+.check-list .cl-mark svg {
+  width: 26px;
+  height: 26px;
+}
+
+.check-list h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--midnight);
+  margin: 2px 0 10px;
+}
+
+.check-list p {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 10px;
+}
