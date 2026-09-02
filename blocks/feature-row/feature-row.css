@@ -392,19 +392,21 @@ main .feature-row-container:has(.feature-row.promo) > div {
 /* circle variant — round media feature rows (flying-with-southwest) */
 .feature-row.circle .feature-card {
   display: grid;
-  grid-template-columns: 420px 1fr;
-  gap: 80px;
+  grid-template-columns: 310px 1fr;
+  gap: 75px;
   align-items: center;
-  max-width: 1160px;
+  max-width: 850px;
   margin: 0 auto;
   box-shadow: none;
+  border: 0;
   border-radius: 0;
   background: none;
+  padding: 0;
 }
 
 .feature-row.circle .feature-media img {
-  width: 380px;
-  height: 380px;
+  width: 310px;
+  height: 310px;
   border-radius: 300px;
   object-fit: cover;
   margin: 0 auto;
@@ -429,10 +431,12 @@ main .feature-row-container:has(.feature-row.promo) > div {
 }
 
 .feature-row.circle .actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
+  display: block;
   margin-top: 6px;
+}
+
+.feature-row.circle .actions p {
+  margin: 0 0 16px;
 }
 
 .feature-row.circle .actions p {
