@@ -119,7 +119,7 @@ main .promo-hero-container > div {
 }
 
 .promo-hero.flagship .ph-inner {
-  padding: 86px 24px 0 115px;
+  padding: 73px 24px 0 25px;
 }
 
 .promo-hero.flagship h1 {
@@ -154,7 +154,7 @@ main .promo-hero-container > div {
   grid-template-columns: 1fr auto;
   gap: 40px;
   align-items: center;
-  padding: 60px 100px 0 220px;
+  padding: 56px 100px 0 128px;
 }
 
 .promo-hero.banner h1,

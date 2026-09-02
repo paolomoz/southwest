@@ -490,16 +490,45 @@ main .section.card + .section.card {
 main .section.card > div {
   max-width: 1211px;
   background: #fff;
-  padding: 44px 60px 40px;
+  padding: 0 60px;
 }
 
 main .section.card > div:first-child {
   padding-top: 44px;
 }
 
-main .section.card > .default-content-wrapper + div {
-  padding-top: 0;
-  margin-top: -14px;
+main .section.card > div:last-child {
+  padding-bottom: 44px;
+}
+
+/* wider inter-card gaps around the tile/benefit cards (live rhythm) */
+main .section.card.pull,
+main .section.card:has(.info-tiles) {
+  padding-bottom: 80px;
+}
+
+main .section.card:has(.info-tiles) > div,
+main .section.card:has(.columns) > div {
+  padding-inline: 45px;
+}
+
+main .section.card:has(.info-tiles) h2 {
+  margin-bottom: 0;
+}
+
+/* awards columns: narrow logo column */
+main .section.card .columns.awards > div {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  align-items: center;
+  border-top: 1px solid var(--hairline);
+  padding-top: 24px;
+}
+
+main .section.card .columns.awards img {
+  max-width: 240px;
+  height: auto;
 }
 
 main .section.card h2 {
@@ -512,8 +541,8 @@ main .section.card > .default-content-wrapper > p {
   font-size: 16px;
   line-height: 26px;
   border-bottom: 1px solid var(--hairline);
-  padding-bottom: 28px;
-  margin-bottom: 4px;
+  padding-bottom: 45px;
+  margin-bottom: 24px;
 }
 
 /* card-pull: overlap the hero above (benefits card) */
@@ -533,6 +562,7 @@ main .section.footnotes {
 
 main .section.footnotes > div {
   max-width: 1211px;
+  padding-inline: 15px;
 }
 
 main .section.footnotes h2 {

@@ -5,7 +5,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 34px 30px;
 }
 
 .info-tiles .it-grid li {
@@ -23,6 +23,7 @@
 }
 
 .info-tiles h3 {
+  text-wrap: initial;
   font-size: 17.6px;
   font-weight: 700;
   color: var(--midnight);
