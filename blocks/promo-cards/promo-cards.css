@@ -87,6 +87,7 @@ main .promo-cards-container {
   line-height: 38.4px;
   color: var(--midnight);
   margin: 0;
+  text-wrap: initial;
 }
 
 .promo-cards .pc-body {
