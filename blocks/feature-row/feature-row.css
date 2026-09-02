@@ -290,9 +290,12 @@ main .feature-row-container:has(.feature-row.signup) > div {
   object-fit: cover;
 }
 
-main .feature-row-container:has(.feature-row.chase),
-main .feature-row-container:has(.feature-row.texts) {
+main .feature-row-container:has(.feature-row.chase) {
   padding-top: 16px;
+}
+
+main .feature-row-container:has(.feature-row.texts) {
+  padding-top: 0;
 }
 
 main .feature-row-container:has(.feature-row.chase) > div,
