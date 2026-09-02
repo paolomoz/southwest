@@ -86,17 +86,22 @@ main .feature-row-container:has(.feature-row.signup) {
 .feature-row.signup .feature-card {
   display: grid;
   grid-template-columns: 463px 648px;
+  align-items: stretch;
   max-width: 1111px;
-  margin-inline: auto;
+  margin: 0 auto;
   min-height: 320px;
   box-shadow: none;
   border-radius: 0;
 }
 
 .feature-row.signup .feature-copy {
+  height: 100%;
+}
+
+.feature-row.signup .feature-copy {
   background: var(--midnight);
   color: #fff;
-  padding: 32px 32px 28px;
+  padding: 32px 32px 33px;
   display: flex;
   flex-direction: column;
 }
