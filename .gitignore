@@ -15,3 +15,5 @@ helix-importer-ui
 qa/
 .env
 .env.*
+
+**/node_modules/

@@ -1,0 +1,15 @@
+{
+  "name": "@southwest-demo/login-widget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared React login component (demo) — bundled offline, consumed by the EDS site as a committed ESM artifact",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.jsx --bundle --format=esm --minify --jsx=automatic --outfile=dist/login-widget.bundle.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

@@ -8,8 +8,9 @@
  * Authoring rows: heading · body · CTA paragraph (anonymous variant copy).
  */
 import {
-  getUser, onAuthChange, formatPoints, PERSONAS, login, logout,
+  getUser, onAuthChange, formatPoints, logout,
 } from '../../scripts/demo-auth.js';
+import { openLoginWidget } from '../../scripts/login-island.js';
 
 function renderAnon(inner, authored) {
   inner.className = 'mb-inner anon';
@@ -28,7 +29,8 @@ function renderAnon(inner, authored) {
   demoLogin.type = 'button';
   demoLogin.className = 'button secondary mb-login';
   demoLogin.textContent = 'Log in';
-  demoLogin.addEventListener('click', () => login(PERSONAS[0].id));
+  // same shared React island the header uses — one component, many hosts
+  demoLogin.addEventListener('click', () => openLoginWidget(demoLogin));
   actions.append(demoLogin);
   inner.append(actions);
 }
