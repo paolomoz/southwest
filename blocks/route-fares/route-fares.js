@@ -59,7 +59,7 @@ export default function decorate(block) {
     <div class="rf-filter"><span class="rf-label">BUDGET (ONE-WAY)</span>
       <div class="rf-inputbox rf-budget"><span class="rf-dollar">$</span><input type="number" min="0" placeholder="Input max budget" aria-label="Maximum one-way budget"></div></div>
     <div class="rf-filter"><span class="rf-label">FARE TYPE</span>
-      <div class="rf-inputbox"><select aria-label="Fare type"><option></option><option selected>Basic</option></select></div></div>`;
+      <div class="rf-inputbox"><select aria-label="Fare type"><option selected></option><option>Basic</option></select></div></div>`;
 
   const grid = document.createElement('ul');
   grid.className = 'rf-grid';
@@ -109,7 +109,13 @@ export default function decorate(block) {
   fetch('/data/routes.json')
     .then((res) => res.json())
     .then((data) => {
-      all = data.filter((r) => r.to === dest).sort((a, b) => a.price - b.price);
+      // one card per origin (cheapest fare), matching the live widget
+      const byOrigin = new Map();
+      data.filter((r) => r.to === dest).forEach((r) => {
+        const k = r.fromCode || r.from;
+        if (!byOrigin.has(k) || byOrigin.get(k).price > r.price) byOrigin.set(k, r);
+      });
+      all = [...byOrigin.values()].sort((a, b) => a.price - b.price);
       render();
     })
     .catch(() => { /* dataset unavailable: grid stays empty */ });

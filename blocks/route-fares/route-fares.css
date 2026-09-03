@@ -83,14 +83,14 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px 22px;
+  gap: 19px 22px;
 }
 
 .route-fares .rf-card {
   background: #fff;
   border: 1px solid #e6e7e8;
   box-shadow: 0 2px 8px rgb(17 27 64 / 14%);
-  padding: 14px 16px 16px;
+  padding: 12px 16px 14px;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
@@ -99,7 +99,7 @@
   color: #304cb2;
   font-size: 19px;
   line-height: 1.4;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   text-wrap: initial;
 }
 
@@ -112,7 +112,7 @@
 .route-fares .rf-price {
   text-align: right;
   align-self: end;
-  padding: 8px 0 10px;
+  padding: 4px 0 8px;
 }
 
 .route-fares .rf-from {
@@ -142,7 +142,7 @@
   font-weight: 700;
   font-size: 16px;
   text-align: center;
-  padding: 12px 0;
+  padding: 11px 0;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgb(17 27 64 / 25%);
 }
