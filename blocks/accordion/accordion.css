@@ -1,0 +1,45 @@
+/* accordion — collapsible FAQ rows */
+.accordion .acc-list {
+  display: grid;
+  gap: 14px;
+}
+
+.accordion .acc-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111b40;
+  color: #fff;
+  border: 0;
+  font: inherit;
+  font-weight: 700;
+  font-size: 17.6px;
+  padding: 20px 24px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordion .acc-chevron {
+  color: var(--sunrise-yellow);
+  font-size: 22px;
+  line-height: 0.4;
+  transition: transform 0.15s;
+}
+
+.accordion .acc-open .acc-chevron {
+  transform: rotate(180deg);
+}
+
+.accordion .acc-panel {
+  background: #fff;
+  border: 1px solid var(--hairline);
+  border-top: 0;
+  padding: 20px 26px;
+}
+
+.accordion .acc-panel p,
+.accordion .acc-panel li {
+  font-size: 15px;
+  line-height: 1.55;
+}
