@@ -34,7 +34,8 @@ export default async function decorate(block) {
     [...inner.childNodes].forEach((n) => h2.append(n.cloneNode(true)));
     copy.append(h2);
   }
-  if (body) copy.append(body.cloneNode(true));
+  ps.filter((p) => !p.querySelector('a')).forEach((p) => copy.append(p.cloneNode(true)));
+  [...block.querySelectorAll('ul, ol')].forEach((l) => copy.append(l.cloneNode(true)));
   if (ctas.length) {
     const actions = document.createElement('div');
     actions.className = 'actions';

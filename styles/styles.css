@@ -761,6 +761,15 @@ main .section.centered-dark h3 {
   margin: 26px 0 16px;
 }
 
+main .section.centered-dark > .default-content-wrapper > h3 {
+  text-align: center;
+}
+
+main .section.centered-dark a.button {
+  color: var(--midnight);
+  text-decoration: none;
+}
+
 main .section.centered-dark > .default-content-wrapper > p {
   color: #fff;
   text-align: center;
@@ -792,7 +801,26 @@ main .section.centered-dark .columns.services > div {
   margin: 20px auto 0;
 }
 
-main .section.centered-dark .columns.logos > div {
+main .section.centered-dark .columns.services > div {
+  grid-template-columns: 1fr auto 1fr;
+  gap: 40px;
+  align-items: end;
+}
+
+main .section.centered-dark .columns.services img {
+  max-width: 330px;
+  height: auto;
+}
+
+.feature-row.business .feature-copy li img,
+main .section.royal li img {
+  width: 42px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+main .section.centered-dark .columns.logos > div > div {
   display: flex;
   justify-content: center;
   align-items: center;
