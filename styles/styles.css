@@ -739,8 +739,8 @@ main .section.royal.centered-dark {
   padding: 78px 0 84px;
 }
 
-main .section.midnight.centered-dark:has(.columns.logos) {
-  padding: 42px 0 32px;
+main .section.midnight.centered-dark:has(#gds-partners) {
+  padding: 34px 0 28px;
 }
 
 main .section.midnight {
@@ -849,7 +849,7 @@ main .section:has(.feature-row.business) {
 }
 
 .feature-row.business .feature-card > div:first-child img {
-  min-height: 728px;
+  min-height: 680px;
   width: 100%;
   object-fit: cover;
 }
@@ -915,7 +915,7 @@ main .section:has(.feature-row.business) {
 /* faq section (light grey) */
 main .section.faq {
   background: #e8e8ea;
-  padding: 36px 0 40px;
+  padding: 28px 0 16px;
 }
 
 main .section.faq > div {
@@ -932,7 +932,7 @@ main .section.faq h2 {
 main .section.faq h3 {
   font-size: 28px;
   color: #111;
-  margin: 22px 0 14px;
+  margin: 18px 0 12px;
 }
 
 /* full-bleed wrappers must beat the template container caps */

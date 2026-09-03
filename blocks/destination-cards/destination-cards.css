@@ -7,7 +7,7 @@ main .destination-cards-container > div {
 .destination-cards .dc-filter {
   background: #f0f0f0;
   padding: 24px 0;
-  margin-bottom: 54px;
+  margin-bottom: 46px;
 }
 
 .destination-cards .dc-filter-inner {
@@ -75,7 +75,7 @@ main .destination-cards-container > div {
 
 .destination-cards .dc-code {
   font-size: 12.8px;
-  color: var(--ink-muted);
+  color: #636363;
   margin: 0;
 }
 
@@ -83,6 +83,7 @@ main .destination-cards-container > div {
   font-size: 16px;
   line-height: 24px;
   margin: 2px 0 6px;
+  color: #636363;
 }
 
 .destination-cards .dc-cta {
