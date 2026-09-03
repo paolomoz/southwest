@@ -1,0 +1,109 @@
+/* destination-cards — filterable destination grid */
+main .destination-cards-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+.destination-cards .dc-filter {
+  background: #f0f0f0;
+  padding: 24px 0;
+  margin-bottom: 48px;
+}
+
+.destination-cards .dc-filter-inner {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.destination-cards .dc-filter button {
+  background: #fff;
+  border: 1px solid #c9c9c9;
+  border-radius: 150px;
+  color: var(--bold-blue);
+  font: inherit;
+  font-size: 16px;
+  padding: 12px 26px;
+  cursor: pointer;
+}
+
+.destination-cards .dc-filter button.dc-active,
+.destination-cards .dc-filter button:hover {
+  border-color: var(--bold-blue);
+  box-shadow: inset 0 0 0 1px var(--bold-blue);
+}
+
+.destination-cards .dc-grid {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 1260px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+}
+
+.destination-cards .dc-card {
+  background: #fff;
+  box-shadow: 0 2px 10px rgb(17 27 64 / 12%);
+  border-radius: 2px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.destination-cards .dc-media img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+
+.destination-cards .dc-copy {
+  padding: 22px 22px 26px;
+  display: grid;
+  align-content: start;
+  gap: 6px;
+}
+
+.destination-cards h3 {
+  font-size: 22.4px;
+  color: var(--midnight);
+  margin: 0;
+}
+
+.destination-cards .dc-code {
+  font-size: 12.8px;
+  color: var(--ink-muted);
+  margin: 0;
+}
+
+.destination-cards .dc-blurb {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 4px 0 16px;
+}
+
+.destination-cards .dc-cta {
+  align-self: end;
+  border: 1px solid var(--midnight);
+  border-radius: 2px;
+  color: var(--midnight);
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  padding: 11px 0;
+}
+
+.destination-cards .dc-cta:hover {
+  text-decoration: none;
+  background: var(--midnight);
+  color: #fff;
+}
+
+@media (width <= 900px) {
+  .destination-cards .dc-grid {
+    grid-template-columns: 1fr;
+  }
+}
