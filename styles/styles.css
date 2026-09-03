@@ -1073,10 +1073,16 @@ main .section.gw-gray {
 }
 
 /* getaways legal prose */
+main .section.gw-terms > div {
+  padding-top: 26px;
+  padding-bottom: 10px;
+}
+
 main .section.gw-terms p {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 12.5px;
+  line-height: 17px;
   color: #111;
+  margin: 0 0 13px;
 }
 
 /* our travel partners band */
@@ -1085,27 +1091,27 @@ main .section.partners-band {
 }
 
 main .section.partners-band > div {
-  padding: 34px 24px 40px;
+  padding: 22px 24px 26px;
   text-align: center;
 }
 
 main .section.partners-band h2 {
   color: #63666a;
-  font-size: 26px;
-  margin: 0 0 26px;
+  font-size: 22px;
+  margin: 0 0 18px;
 }
 
 main .section.partners-band p:has(img) {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 34px;
   flex-wrap: wrap;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
 }
 
 main .section.partners-band p img {
-  height: 44px;
+  height: 26px;
   width: auto;
   filter: grayscale(1);
 }

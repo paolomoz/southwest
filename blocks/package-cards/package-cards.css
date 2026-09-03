@@ -166,3 +166,20 @@
 .package-cards .pk-dots span.pk-dot-on {
   background: #304cb2;
 }
+
+.package-cards .pk-see-more {
+  display: table;
+  margin: 10px auto 8px;
+  background: #fff;
+  border: 1px solid #304cb2;
+  border-radius: 3px;
+  color: #304cb2;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 13px 24px;
+}
+
+.package-cards .pk-see-more:hover {
+  text-decoration: none;
+  background: #eef1f5;
+}

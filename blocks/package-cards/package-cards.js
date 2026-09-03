@@ -79,6 +79,7 @@ export default function decorate(block) {
   const rows = [...block.children];
   const heading = block.querySelector('h1, h2');
   const cardsRows = rows.filter((r) => r.querySelector('picture, img'));
+  const ctaRow = rows.find((r) => !r.querySelector('picture, img') && r.querySelector('a') && !r.contains(heading));
 
   const shell = document.createElement('div');
   shell.className = 'pk-shell';
@@ -115,4 +116,12 @@ export default function decorate(block) {
   block.replaceChildren();
   if (heading) block.append(heading);
   block.append(shell, dots);
+  if (ctaRow) {
+    const a = ctaRow.querySelector('a');
+    const b = document.createElement('a');
+    b.className = 'pk-see-more';
+    b.href = a.getAttribute('href');
+    b.textContent = a.textContent.trim();
+    block.append(b);
+  }
 }

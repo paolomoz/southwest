@@ -250,6 +250,8 @@ body.getaways .header .nav-sections a {
   color: #fff;
   font-size: 15px;
   font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 body.getaways .header .nav-sections a:hover {

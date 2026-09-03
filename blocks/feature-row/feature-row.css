@@ -465,7 +465,11 @@ main .feature-row-container:has(.feature-row.promo) > div {
   gap: 60px;
   align-items: center;
   max-width: 1216px;
-  margin: 34px auto 10px;
+  margin: 0 auto;
+  padding: 64px 0 70px;
+  box-shadow: none;
+  border: 0;
+  background: none;
 }
 
 .feature-row.getaways h2 {
