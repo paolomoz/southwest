@@ -7,7 +7,7 @@
 .route-fares h2 {
   color: #304cb2;
   font-size: 32px;
-  margin: 88px 0 26px;
+  margin: 151px 0 26px;
   text-wrap: initial;
 }
 
@@ -164,7 +164,7 @@
   font-size: 13px;
   line-height: 19px;
   color: #63666a;
-  margin: 60px 0 0;
+  margin: 36px 0 0;
 }
 
 /* wide variant — horizontal cards, 2 columns */
@@ -200,7 +200,7 @@
 
 .route-fares .rf-more {
   display: block;
-  margin: 34px auto 0;
+  margin: 50px auto 0;
   background: #fff;
   border: 1px solid #c9c9c9;
   border-radius: 2px;

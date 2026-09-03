@@ -3,7 +3,7 @@ main .route-hero-container {
   background: linear-gradient(120deg, #1a2c80, #304cb2 70%, #273c93);
   background-size: cover;
   background-position: center;
-  padding: 74px 0 42px;
+  padding: 66px 0 42px;
 }
 
 main .route-hero-container > div {
