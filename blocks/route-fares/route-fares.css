@@ -7,7 +7,7 @@
 .route-fares h2 {
   color: #304cb2;
   font-size: 32px;
-  margin: 44px 0 26px;
+  margin: 88px 0 26px;
   text-wrap: initial;
 }
 
@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
   gap: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 38px;
 }
 
 .route-fares .rf-label {
@@ -90,7 +90,7 @@
   background: #fff;
   border: 1px solid #e6e7e8;
   box-shadow: 0 2px 8px rgb(17 27 64 / 14%);
-  padding: 12px 16px 14px;
+  padding: 12px 16px 10px;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
@@ -112,7 +112,7 @@
 .route-fares .rf-price {
   text-align: right;
   align-self: end;
-  padding: 4px 0 8px;
+  padding: 2px 0 6px;
 }
 
 .route-fares .rf-from {
@@ -164,13 +164,13 @@
   font-size: 13px;
   line-height: 19px;
   color: #63666a;
-  margin: 30px 0 0;
+  margin: 60px 0 0;
 }
 
 /* wide variant — horizontal cards, 2 columns */
 .route-fares.wide .rf-grid {
   grid-template-columns: repeat(2, 1fr);
-  gap: 18px 16px;
+  gap: 12px 16px;
 }
 
 .route-fares.wide .rf-card {
@@ -178,11 +178,11 @@
   grid-template-columns: 1fr auto 112px;
   gap: 16px;
   align-items: center;
-  padding: 16px 18px;
+  padding: 8px 18px;
 }
 
 .route-fares.wide .rf-card h3 {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .route-fares.wide .rf-price {

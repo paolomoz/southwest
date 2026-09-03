@@ -3,7 +3,7 @@ main .route-hero-container {
   background: linear-gradient(120deg, #1a2c80, #304cb2 70%, #273c93);
   background-size: cover;
   background-position: center;
-  padding: 0;
+  padding: 74px 0 42px;
 }
 
 main .route-hero-container > div {
@@ -13,7 +13,7 @@ main .route-hero-container > div {
 
 .route-hero .rh-card {
   max-width: 1152px;
-  margin: 34px auto 30px;
+  margin: 0 auto;
   background: rgb(255 255 255 / 92%);
   border-radius: 2px;
   padding: 26px 26px 12px;
