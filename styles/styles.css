@@ -488,6 +488,7 @@ main .section.card + .section.card {
 }
 
 main .section.card > div {
+  display: flow-root; /* contain child margins: no ground bleed between wrappers */
   max-width: 1211px;
   background: #fff;
   padding: 0 60px;
