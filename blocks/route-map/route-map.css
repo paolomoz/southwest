@@ -7,6 +7,7 @@ main .route-map-container > div {
 .route-map .rm-shell {
   display: grid;
   grid-template-columns: 1fr 420px;
+  margin-top: 47px;
 }
 
 .route-map .rm-map {

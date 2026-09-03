@@ -10,9 +10,6 @@ export default function decorate(block) {
   const map = document.createElement('div');
   map.className = 'rm-map';
   if (pic) map.append(pic.closest('picture') || pic);
-  map.insertAdjacentHTML('beforeend', `
-    <span class="rm-legend"><svg viewBox="0 0 24 24" width="15" height="15" fill="#fff"><circle cx="12" cy="12" r="10" fill="none" stroke="#fff" stroke-width="2"/><path d="M12 10.5v6M12 7.2v1.6" stroke="#fff" stroke-width="2"/></svg> Map Legend</span>
-    <span class="rm-viewlist">☰ View List</span>`);
 
   const panel = document.createElement('div');
   panel.className = 'rm-panel';
