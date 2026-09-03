@@ -7,7 +7,7 @@ main .destination-cards-container > div {
 .destination-cards .dc-filter {
   background: #f0f0f0;
   padding: 24px 0;
-  margin-bottom: 48px;
+  margin-bottom: 26px;
 }
 
 .destination-cards .dc-filter-inner {
@@ -43,7 +43,7 @@ main .destination-cards-container > div {
   max-width: 1260px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 36px;
+  gap: 38px 24px;
 }
 
 .destination-cards .dc-card {
@@ -61,10 +61,10 @@ main .destination-cards-container > div {
 }
 
 .destination-cards .dc-copy {
-  padding: 22px 22px 26px;
+  padding: 18px 20px 20px;
   display: grid;
   align-content: start;
-  gap: 6px;
+  gap: 4px;
 }
 
 .destination-cards h3 {
@@ -82,7 +82,7 @@ main .destination-cards-container > div {
 .destination-cards .dc-blurb {
   font-size: 16px;
   line-height: 24px;
-  margin: 4px 0 16px;
+  margin: 2px 0 12px;
 }
 
 .destination-cards .dc-cta {

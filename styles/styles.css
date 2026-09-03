@@ -922,6 +922,7 @@ main .section.faq h3 {
 }
 
 /* full-bleed wrappers must beat the template container caps */
+.inner main > .section > div.destination-cards-wrapper,
 .inner main > .section > div.promo-hero-wrapper,
 .inner main > .section > div.split-band-wrapper,
 .inner main > .section > div.sub-nav-wrapper,
