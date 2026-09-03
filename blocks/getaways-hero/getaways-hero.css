@@ -51,13 +51,33 @@ main .getaways-hero-container > div {
   font-weight: 700;
 }
 
-/* banner variant — left-aligned white title */
+/* banner variant — in-flow image sets the band height (own aspect at every
+   width); title overlaid left */
+.getaways-hero.banner {
+  position: relative;
+}
+
+.getaways-hero.banner .gh-bg img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 150px;
+  object-fit: cover;
+}
+
+.getaways-hero.banner .gh-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+}
+
 .getaways-hero.banner .gh-inner {
-  min-height: 196px;
+  min-height: 0;
   align-items: flex-start;
   text-align: left;
-  justify-content: center;
-  padding: 30px 24px;
+  justify-content: flex-start;
+  padding: 3.6% 24px 24px;
+  width: 100%;
 }
 
 .getaways-hero.banner h1 {
