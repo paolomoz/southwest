@@ -1,0 +1,62 @@
+/* plan-tiles — Plan your trip 3-up */
+.plan-tiles {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+}
+
+.plan-tiles h2 {
+  color: #304cb2;
+  font-size: 32px;
+  margin: 0 0 34px;
+  text-wrap: initial;
+}
+
+.plan-tiles .pt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.plan-tiles .pt-tile {
+  text-align: center;
+  padding: 6px 56px 20px;
+}
+
+.plan-tiles .pt-tile + .pt-tile {
+  border-left: 1px solid #c9c9c9;
+}
+
+.plan-tiles .pt-icon img {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+}
+
+.plan-tiles .pt-tile h3 {
+  color: #304cb2;
+  font-size: 20px;
+  margin: 14px 0 10px;
+}
+
+.plan-tiles .pt-tile p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 0 16px;
+}
+
+.plan-tiles .pt-cta {
+  color: #304cb2;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+@media (width <= 900px) {
+  .plan-tiles .pt-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-tiles .pt-tile + .pt-tile {
+    border-left: 0;
+    border-top: 1px solid #c9c9c9;
+  }
+}

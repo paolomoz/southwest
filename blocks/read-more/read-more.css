@@ -1,0 +1,21 @@
+/* read-more — collapsed-prose toggle */
+.read-more {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 6px 0 20px;
+}
+
+.read-more .rm-btn {
+  background: #fff;
+  border: 1px solid #304cb2;
+  border-radius: 2px;
+  color: #304cb2;
+  font: inherit;
+  font-size: 14px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.read-more .rm-btn:hover {
+  background: #eef1f5;
+}

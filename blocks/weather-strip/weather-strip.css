@@ -1,0 +1,102 @@
+/* weather-strip — 7-day weather cards */
+.weather-strip {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 24px 0 40px;
+}
+
+.weather-strip .ws-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.weather-strip h2 {
+  color: #304cb2;
+  font-size: 36px;
+  margin: 0;
+  text-wrap: initial;
+}
+
+.weather-strip .ws-unit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #63666a;
+}
+
+.weather-strip .ws-unit select {
+  border: 1px solid #c9c9c9;
+  border-radius: 2px;
+  color: #304cb2;
+  font: inherit;
+  font-size: 14px;
+  padding: 6px 10px;
+  background: #fff;
+}
+
+.weather-strip .ws-strip {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.weather-strip .ws-day {
+  border: 1px solid #e6e7e8;
+  background: #fff;
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+.weather-strip .ws-icon {
+  background: #c9c9c9;
+  display: grid;
+  place-items: center;
+  height: 88px;
+  margin-bottom: 12px;
+}
+
+.weather-strip .ws-day p {
+  margin: 0 0 4px;
+}
+
+.weather-strip .ws-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #111;
+}
+
+.weather-strip .ws-cond {
+  font-size: 13px;
+  color: #111;
+}
+
+.weather-strip .ws-temp {
+  font-size: 24px;
+  font-weight: 700;
+  color: #304cb2;
+  margin-top: 6px;
+}
+
+.weather-strip .ws-date {
+  font-size: 14px;
+  color: #304cb2;
+}
+
+.weather-strip .ws-powered {
+  font-size: 13px;
+  color: #304cb2;
+  margin: 14px 0 0;
+}
+
+@media (width <= 900px) {
+  .weather-strip .ws-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

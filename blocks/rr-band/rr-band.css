@@ -1,0 +1,105 @@
+/* rr-band — Rapid Rewards benefits band */
+.rr-band {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 26px 0 18px;
+}
+
+.rr-band .rr-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.rr-band .rr-lead {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+
+.rr-band .rr-lead a {
+  color: #304cb2;
+  text-decoration: underline;
+}
+
+.rr-band .rr-lead sup {
+  font-size: 13px;
+}
+
+.rr-band .rr-signup {
+  border: 1px solid #304cb2;
+  border-radius: 2px;
+  color: #304cb2;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px 26px;
+  white-space: nowrap;
+}
+
+.rr-band .rr-signup:hover {
+  text-decoration: none;
+  background: #eef1f5;
+}
+
+.rr-band .rr-grid {
+  display: grid;
+  grid-template-columns: 1fr 90px 1fr 90px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.rr-band .rr-col h3 {
+  color: #111;
+  font-size: 18px;
+  margin: 0 0 12px;
+  text-wrap: initial;
+}
+
+.rr-band .rr-col h3 sup {
+  font-size: 11px;
+}
+
+.rr-band .rr-col p {
+  font-size: 15.5px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.rr-band .rr-icon {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: rgb(255 191 39 / 35%);
+  display: grid;
+  place-items: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.rr-band .rr-foot {
+  font-size: 12px;
+  color: #111;
+  margin: 34px 0 0;
+}
+
+@media (width <= 900px) {
+  .rr-band {
+    padding: 24px 20px;
+  }
+
+  .rr-band .rr-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rr-band .rr-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rr-band .rr-icon {
+    display: none;
+  }
+}

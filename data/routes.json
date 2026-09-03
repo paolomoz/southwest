@@ -1,0 +1,4998 @@
+[
+ {
+  "from": "Atlanta",
+  "fromCode": "ATL",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/30/2026",
+  "price": 59,
+  "seen": "4 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Houston-Hobby",
+  "fromCode": "HOU",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/28/2026",
+  "price": 85,
+  "seen": "7 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "San Juan",
+  "fromCode": "SJU",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/28/2026",
+  "price": 101,
+  "seen": "6 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Milwaukee",
+  "fromCode": "MKE",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/23/2026",
+  "price": 109,
+  "seen": "5 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "New Orleans",
+  "fromCode": "MSY",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/28/2026",
+  "price": 112,
+  "seen": "14 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Baltimore/Washington",
+  "fromCode": "BWI",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/22/2026",
+  "price": 119,
+  "seen": "11 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Indianapolis",
+  "fromCode": "IND",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/30/2026",
+  "price": 122,
+  "seen": "16 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Hartford/Springfield",
+  "fromCode": "BDL",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/26/2026",
+  "price": 122,
+  "seen": "3 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Nashville",
+  "fromCode": "BNA",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "10/01/2026",
+  "price": 124,
+  "seen": "5 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Philadelphia",
+  "fromCode": "PHL",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/22/2026",
+  "price": 126,
+  "seen": "16 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "St. Louis",
+  "fromCode": "STL",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/30/2026",
+  "price": 128,
+  "seen": "4 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Columbus",
+  "fromCode": "CMH",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/29/2026",
+  "price": 131,
+  "seen": "4 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Pittsburgh",
+  "fromCode": "PIT",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/22/2026",
+  "price": 134,
+  "seen": "8 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Dallas-Love Field",
+  "fromCode": "DAL",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/28/2026",
+  "price": 134,
+  "seen": "7 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Providence",
+  "fromCode": "PVD",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/29/2026",
+  "price": 136,
+  "seen": "13 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Kansas City",
+  "fromCode": "MCI",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/29/2026",
+  "price": 148,
+  "seen": "23 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Buffalo/Niagara Falls",
+  "fromCode": "BUF",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/22/2026",
+  "price": 149,
+  "seen": "12 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Washington D.C. Reagan National",
+  "fromCode": "DCA",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/26/2026",
+  "price": 149,
+  "seen": "5 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Denver",
+  "fromCode": "DEN",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/30/2026",
+  "price": 159,
+  "seen": "9 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Chicago-Midway",
+  "fromCode": "MDW",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/10/2026",
+  "price": 164,
+  "seen": "23 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Atlanta",
+  "fromCode": "ATL",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/29/2026",
+  "price": 59,
+  "seen": "4 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Pittsburgh",
+  "fromCode": "PIT",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/26/2026",
+  "price": 134,
+  "seen": "9 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Atlanta",
+  "fromCode": "ATL",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "11/03/2026",
+  "price": 59,
+  "seen": "9 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Houston-Hobby",
+  "fromCode": "HOU",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "11/03/2026",
+  "price": 85,
+  "seen": "9 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Raleigh/Durham",
+  "fromCode": "RDU",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "11/11/2026",
+  "price": 89,
+  "seen": "11 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Birmingham",
+  "fromCode": "BHM",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "10/27/2026",
+  "price": 93,
+  "seen": "10 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Memphis",
+  "fromCode": "MEM",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "09/22/2026",
+  "price": 96,
+  "seen": "14 hrs ago",
+  "intl": false
+ },
+ {
+  "from": "Baltimore/Washington",
+  "fromCode": "BWI",
+  "to": "Orlando, FL",
+  "toCode": "MCO",
+  "date": "10/24/2026",
+  "price": 98,
+  "seen": "29 minutes ago",
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Orlando, FL",
+  "toCode": null,
+  "date": "09/15/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Tampa, FL",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 158,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Fort Lauderdale, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Fort Myers, FL",
+  "toCode": null,
+  "date": "10/24/2026",
+  "price": 178,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Baltimore/Washington, MD",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 91,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Sarasota/Bradenton, FL",
+  "toCode": null,
+  "date": "10/02/2026",
+  "price": 164,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "West Palm Beach (Trump Intl), FL",
+  "toCode": null,
+  "date": "11/13/2026",
+  "price": 176,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Denver, CO",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 209,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Phoenix, AZ",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Chicago (Midway), IL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Las Vegas, NV",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 199,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Miami, FL",
+  "toCode": null,
+  "date": "12/08/2026",
+  "price": 161,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Nashville, TN",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Myrtle Beach, SC",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Jacksonville, FL",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 170,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Raleigh/Durham, NC",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Salt Lake City, UT",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 187,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Charleston, SC",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 153,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Los Angeles, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Cancun, Mexico",
+  "toCode": null,
+  "date": "01/11/2026",
+  "price": 242,
+  "intl": true
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "San Juan, PR",
+  "toCode": null,
+  "date": "10/07/2026",
+  "price": 204,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Dallas (Love Field), TX",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Savannah/Hilton Head, GA",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "San Diego, CA",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 182,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Aruba, Aruba",
+  "toCode": null,
+  "date": "11/30/2026",
+  "price": 318,
+  "intl": true
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Austin, TX",
+  "toCode": null,
+  "date": "01/12/2026",
+  "price": 150,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Houston (Hobby), TX",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 183,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "New Orleans, LA",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 176,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Charlotte, NC",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 182,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "San Antonio, TX",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Atlanta, GA",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Montego Bay, Jamaica",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 259,
+  "intl": true
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Albuquerque, NM",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Oakland, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 187,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Norfolk, VA",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 140,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Punta Cana, Dominican Republic",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 314,
+  "intl": true
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "St. Louis, MO",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 154,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Kansas City, MO",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 178,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Columbus, OH",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 160,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Indianapolis, IN",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 160,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Minneapolis/St. Paul , MN",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Greenville/Spartanburg, SC",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 133,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Ontario/LA, CA",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 184,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Colorado Springs, CO",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Birmingham, AL",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 168,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Pittsburgh, PA",
+  "toCode": null,
+  "date": "10/24/2026",
+  "price": 158,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Louisville, KY",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Tucson, AZ",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 187,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Seattle/Tacoma, WA",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Long Beach, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Cleveland, OH",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 158,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Sacramento, CA",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "San Jose, CA",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 182,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Cincinnati, OH",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 160,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Memphis, TN",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Milwaukee, WI",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Omaha, NE",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Oklahoma City, OK",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 183,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Grand Rapids, MI",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 160,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Detroit, MI",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 144,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Nassau, Bahamas",
+  "toCode": null,
+  "date": "09/27/2026",
+  "price": 187,
+  "intl": true
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Panama City Beach, FL",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 191,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "San Jose, Costa Rica",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 303,
+  "intl": true
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Reno/Tahoe, NV",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 204,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Portland, OR",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 182,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Washington (Reagan National), DC",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 101,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Destin/Fort Walton Beach, FL",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Grand Cayman, Cayman Islands",
+  "toCode": null,
+  "date": "09/12/2026",
+  "price": 233,
+  "intl": true
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Jackson, MS",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 170,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Eugene, OR",
+  "toCode": null,
+  "date": "11/04/2026",
+  "price": 192,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Tulsa, OK",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 178,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "San Francisco, CA",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Orange County/Santa Ana, CA",
+  "toCode": null,
+  "date": "11/18/2026",
+  "price": 209,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Burbank, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "El Paso, TX",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 187,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Harlingen, TX",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 185,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Portland, ME",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Buffalo/Niagara, NY",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 140,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Long Island/Islip, NY",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Pensacola, FL",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 211,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Lubbock, TX",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Bozeman/Yellowstone, MT",
+  "toCode": null,
+  "date": "12/02/2026",
+  "price": 216,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Rochester, NY",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 140,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Midland/Odessa, TX",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 187,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Richmond, VA",
+  "toCode": null,
+  "date": "11/02/2026",
+  "price": 168,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Philadelphia, PA",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Spokane, WA",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 187,
+  "intl": false
+ },
+ {
+  "from": "Albany, NY",
+  "fromCode": "ALB",
+  "to": "Boise, ID",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Denver, CO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 95,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Las Vegas, NV",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Phoenix, AZ",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Nashville, TN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 99,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Orlando, FL",
+  "toCode": null,
+  "date": "09/28/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "New Orleans, LA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 97,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "San Diego, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Los Angeles, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Chicago (Midway), IL",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 146,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Cancun, Mexico",
+  "toCode": null,
+  "date": "10/25/2026",
+  "price": 230,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Albuquerque, NM",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "El Paso, TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 115,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Kansas City, MO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 99,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Fort Lauderdale, FL",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Salt Lake City, UT",
+  "toCode": null,
+  "date": "09/24/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Tampa, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 127,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Baltimore/Washington, MD",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "St. Louis, MO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 116,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Dallas (Love Field), TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 79,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "San Jose, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 135,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Atlanta, GA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 99,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Long Beach, CA",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 144,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Washington (Reagan National), DC",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 199,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "New York (LaGuardia), NY",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 150,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Sacramento, CA",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Oakland, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 124,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Miami, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Indianapolis, IN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 134,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Los Cabos, Mexico",
+  "toCode": null,
+  "date": "12/01/2026",
+  "price": 195,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Raleigh/Durham, NC",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Orange County/Santa Ana, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 199,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Tulsa, OK",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Burbank, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Lubbock, TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Ontario/LA, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Amarillo, TX",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Reno/Tahoe, NV",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 148,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Oklahoma City, OK",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Columbus, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Houston (Hobby), TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 79,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Minneapolis/St. Paul , MN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Pittsburgh, PA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Portland, OR",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 130,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Montrose (Telluride/Crested Butte), CO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 115,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Harlingen, TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Steamboat Springs (Hayden), CO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 115,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Charleston, SC",
+  "toCode": null,
+  "date": "10/31/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Boston (Logan), MA",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 171,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Panama City Beach, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 115,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Midland/Odessa, TX",
+  "toCode": null,
+  "date": "09/24/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Colorado Springs, CO",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Seattle/Tacoma, WA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Puerto Vallarta, Mexico",
+  "toCode": null,
+  "date": "11/08/2026",
+  "price": 245,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Jacksonville, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "San Juan, PR",
+  "toCode": null,
+  "date": "10/02/2026",
+  "price": 208,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Fort Myers, FL",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 165,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Philadelphia, PA",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 209,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Bozeman/Yellowstone, MT",
+  "toCode": null,
+  "date": "09/28/2026",
+  "price": 180,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Liberia (Guanacaste), Costa Rica",
+  "toCode": null,
+  "date": "10/31/2026",
+  "price": 231,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Honolulu (Oahu), HI",
+  "toCode": null,
+  "date": "01/26/2026",
+  "price": 290,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Milwaukee, WI",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 154,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Detroit, MI",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 172,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Omaha, NE",
+  "toCode": null,
+  "date": "10/21/2026",
+  "price": 135,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "San Francisco, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 125,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Tucson, AZ",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 170,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Memphis, TN",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 105,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Birmingham, AL",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 120,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Palm Springs, CA",
+  "toCode": null,
+  "date": "10/13/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Savannah/Hilton Head, GA",
+  "toCode": null,
+  "date": "10/31/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Sarasota/Bradenton, FL",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Cleveland, OH",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 140,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Kahului (Maui), HI",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 288,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Destin/Fort Walton Beach, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 152,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Boise, ID",
+  "toCode": null,
+  "date": "10/21/2026",
+  "price": 150,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Greenville/Spartanburg, SC",
+  "toCode": null,
+  "date": "10/31/2026",
+  "price": 130,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Little Rock, AR",
+  "toCode": null,
+  "date": "01/06/2026",
+  "price": 118,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Hartford, CT",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 161,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "San Jose, Costa Rica",
+  "toCode": null,
+  "date": "01/08/2026",
+  "price": 228,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Charlotte, NC",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 209,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Pensacola, FL",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Providence, RI",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 206,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Belize City, Belize",
+  "toCode": null,
+  "date": "10/04/2026",
+  "price": 233,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Richmond, VA",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Punta Cana, Dominican Republic",
+  "toCode": null,
+  "date": "11/30/2026",
+  "price": 285,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Louisville, KY",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Spokane, WA",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Eugene, OR",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 150,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Buffalo/Niagara, NY",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 183,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Albany, NY",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Nassau, Bahamas",
+  "toCode": null,
+  "date": "10/13/2026",
+  "price": 186,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Norfolk, VA",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Grand Cayman, Cayman Islands",
+  "toCode": null,
+  "date": "09/12/2026",
+  "price": 153,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Grand Rapids, MI",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 151,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Manchester, NH",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 182,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Santa Barbara, CA",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 185,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Myrtle Beach, SC",
+  "toCode": null,
+  "date": "10/31/2026",
+  "price": 140,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Montego Bay, Jamaica",
+  "toCode": null,
+  "date": "11/15/2026",
+  "price": 213,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Lihue (Kauai), HI",
+  "toCode": null,
+  "date": "11/10/2026",
+  "price": 263,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Rochester, NY",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Cincinnati, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Jackson, MS",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 105,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Providenciales, Turks and Caicos Islands",
+  "toCode": null,
+  "date": "11/09/2026",
+  "price": 193,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Fresno, CA",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 150,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "West Palm Beach (Trump Intl), FL",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Des Moines, IA",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Portland, ME",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 185,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Havana, Cuba",
+  "toCode": null,
+  "date": "11/10/2026",
+  "price": 217,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Kona (Hawaii Island), HI",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 299,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Long Island/Islip, NY",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Wichita, KS",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Aruba, Aruba",
+  "toCode": null,
+  "date": "12/09/2026",
+  "price": 298,
+  "intl": true
+ },
+ {
+  "from": "Austin, TX",
+  "fromCode": "AUS",
+  "to": "Corpus Christi, TX",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 112,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Baltimore/Washington, MD",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Denver, CO",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Chicago (Midway), IL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Nashville, TN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "St. Louis, MO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Orlando, FL",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 166,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Austin, TX",
+  "toCode": null,
+  "date": "09/16/2026",
+  "price": 171,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Dallas (Love Field), TX",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Tampa, FL",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 199,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Phoenix, AZ",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Houston (Hobby), TX",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 219,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Kansas City, MO",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 150,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Las Vegas, NV",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Salt Lake City, UT",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 208,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Fort Lauderdale, FL",
+  "toCode": null,
+  "date": "11/11/2026",
+  "price": 204,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Atlanta, GA",
+  "toCode": null,
+  "date": "09/30/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Sarasota/Bradenton, FL",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "San Diego, CA",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Fort Myers, FL",
+  "toCode": null,
+  "date": "11/04/2026",
+  "price": 194,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Los Angeles, CA",
+  "toCode": null,
+  "date": "11/18/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "New Orleans, LA",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 194,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "San Antonio, TX",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 145,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Sacramento, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Raleigh/Durham, NC",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "West Palm Beach (Trump Intl), FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 194,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Miami, FL",
+  "toCode": null,
+  "date": "11/18/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Albuquerque, NM",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 191,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Oklahoma City, OK",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 219,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Jacksonville, FL",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Reno/Tahoe, NV",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Columbus, OH",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 161,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Portland, OR",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "San Jose, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 158,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Cancun, Mexico",
+  "toCode": null,
+  "date": "11/15/2026",
+  "price": 255,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Tucson, AZ",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 194,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Omaha, NE",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 155,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Ontario/LA, CA",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Long Beach, CA",
+  "toCode": null,
+  "date": "12/15/2026",
+  "price": 180,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Oakland, CA",
+  "toCode": null,
+  "date": "11/10/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Tulsa, OK",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 178,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Bozeman/Yellowstone, MT",
+  "toCode": null,
+  "date": "11/06/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Pittsburgh, PA",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Savannah/Hilton Head, GA",
+  "toCode": null,
+  "date": "12/02/2026",
+  "price": 184,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Charleston, SC",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Norfolk, VA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 167,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Burbank, CA",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Minneapolis/St. Paul , MN",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Charlotte, NC",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 182,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Indianapolis, IN",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "San Francisco, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 200,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Myrtle Beach, SC",
+  "toCode": null,
+  "date": "11/04/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Seattle/Tacoma, WA",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 177,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Milwaukee, WI",
+  "toCode": null,
+  "date": "09/15/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Louisville, KY",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Little Rock, AR",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 196,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "San Juan, PR",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 243,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Panama City Beach, FL",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 206,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "El Paso, TX",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 184,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Orange County/Santa Ana, CA",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 174,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Montego Bay, Jamaica",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 259,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Steamboat Springs (Hayden), CO",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 194,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Destin/Fort Walton Beach, FL",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Birmingham, AL",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Spokane, WA",
+  "toCode": null,
+  "date": "11/12/2026",
+  "price": 184,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Greenville/Spartanburg, SC",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 132,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Punta Cana, Dominican Republic",
+  "toCode": null,
+  "date": "11/28/2026",
+  "price": 298,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Colorado Springs, CO",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 114,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Pensacola, FL",
+  "toCode": null,
+  "date": "10/30/2026",
+  "price": 193,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Memphis, TN",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 205,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Boise, ID",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 172,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Cleveland, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Montrose (Telluride/Crested Butte), CO",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 196,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Palm Springs, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 204,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Detroit, MI",
+  "toCode": null,
+  "date": "10/21/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Grand Rapids, MI",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 127,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "San Jose, Costa Rica",
+  "toCode": null,
+  "date": "03/08/2026",
+  "price": 269,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Cincinnati, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Wichita, KS",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 178,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Rochester, NY",
+  "toCode": null,
+  "date": "11/04/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Buffalo/Niagara, NY",
+  "toCode": null,
+  "date": "12/15/2026",
+  "price": 144,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Des Moines, IA",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Los Cabos, Mexico",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 265,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Santa Barbara, CA",
+  "toCode": null,
+  "date": "12/08/2026",
+  "price": 164,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Aruba, Aruba",
+  "toCode": null,
+  "date": "11/09/2026",
+  "price": 344,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Liberia (Guanacaste), Costa Rica",
+  "toCode": null,
+  "date": "04/11/2026",
+  "price": 318,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Puerto Vallarta, Mexico",
+  "toCode": null,
+  "date": "11/08/2026",
+  "price": 275,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Nassau, Bahamas",
+  "toCode": null,
+  "date": "04/05/2026",
+  "price": 210,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Eugene, OR",
+  "toCode": null,
+  "date": "11/11/2026",
+  "price": 162,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Lubbock, TX",
+  "toCode": null,
+  "date": "11/10/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Jackson, MS",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 183,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Midland/Odessa, TX",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 194,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Fresno, CA",
+  "toCode": null,
+  "date": "11/17/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Philadelphia, PA",
+  "toCode": null,
+  "date": "09/19/2026",
+  "price": 143,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Harlingen, TX",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Washington (Reagan National), DC",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 246,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Belize City, Belize",
+  "toCode": null,
+  "date": "12/13/2026",
+  "price": 214,
+  "intl": true
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Richmond, VA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Boston, MA",
+  "fromCode": "BOS",
+  "to": "Long Island/Islip, NY",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Phoenix, AZ",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 89,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Dallas (Love Field), TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 89,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Las Vegas, NV",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 117,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Austin, TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 95,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "San Diego, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 89,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Houston (Hobby), TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 138,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Orlando, FL",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "St. Louis, MO",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 89,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Chicago (Midway), IL",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 115,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Nashville, TN",
+  "toCode": null,
+  "date": "10/05/2026",
+  "price": 89,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Kansas City, MO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 117,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Tampa, FL",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Baltimore/Washington, MD",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 168,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Los Angeles, CA",
+  "toCode": null,
+  "date": "09/28/2026",
+  "price": 79,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Orange County/Santa Ana, CA",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 79,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "New York (LaGuardia), NY",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 157,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Salt Lake City, UT",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 79,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "San Antonio, TX",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 115,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "New Orleans, LA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Atlanta, GA",
+  "toCode": null,
+  "date": "10/24/2026",
+  "price": 99,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Minneapolis/St. Paul , MN",
+  "toCode": null,
+  "date": "10/13/2026",
+  "price": 79,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Indianapolis, IN",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Seattle/Tacoma, WA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 144,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Fort Lauderdale, FL",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 209,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "San Francisco, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Oklahoma City, OK",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 79,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Sacramento, CA",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Cancun, Mexico",
+  "toCode": null,
+  "date": "11/08/2026",
+  "price": 232,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Burbank, CA",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Portland, OR",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Tucson, AZ",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Long Beach, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 93,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Oakland, CA",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "San Jose, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Boston (Logan), MA",
+  "toCode": null,
+  "date": "10/17/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Omaha, NE",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 89,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Albuquerque, NM",
+  "toCode": null,
+  "date": "10/10/2026",
+  "price": 89,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Milwaukee, WI",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Los Cabos, Mexico",
+  "toCode": null,
+  "date": "11/15/2026",
+  "price": 232,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Tulsa, OK",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 128,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Ontario/LA, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Philadelphia, PA",
+  "toCode": null,
+  "date": "10/05/2026",
+  "price": 161,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Columbus, OH",
+  "toCode": null,
+  "date": "09/24/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Raleigh/Durham, NC",
+  "toCode": null,
+  "date": "10/26/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Puerto Vallarta, Mexico",
+  "toCode": null,
+  "date": "11/02/2026",
+  "price": 239,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Miami, FL",
+  "toCode": null,
+  "date": "09/10/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Palm Springs, CA",
+  "toCode": null,
+  "date": "09/30/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Fort Myers, FL",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Pittsburgh, PA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 166,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Jacksonville, FL",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Reno/Tahoe, NV",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Detroit, MI",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 99,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Bozeman/Yellowstone, MT",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "El Paso, TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 79,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Cleveland, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Honolulu (Oahu), HI",
+  "toCode": null,
+  "date": "10/26/2026",
+  "price": 235,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Santa Barbara, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 142,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Boise, ID",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 99,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Spokane, WA",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Birmingham, AL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Charleston, SC",
+  "toCode": null,
+  "date": "09/25/2026",
+  "price": 166,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Kahului (Maui), HI",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 257,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "San Jose, Costa Rica",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 267,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Grand Rapids, MI",
+  "toCode": null,
+  "date": "10/30/2026",
+  "price": 200,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Liberia (Guanacaste), Costa Rica",
+  "toCode": null,
+  "date": "11/15/2026",
+  "price": 292,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Louisville, KY",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 199,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Sarasota/Bradenton, FL",
+  "toCode": null,
+  "date": "10/24/2026",
+  "price": 184,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Memphis, TN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Washington (Reagan National), DC",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 180,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Little Rock, AR",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Cincinnati, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Des Moines, IA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Buffalo/Niagara, NY",
+  "toCode": null,
+  "date": "10/17/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Panama City Beach, FL",
+  "toCode": null,
+  "date": "09/15/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Pensacola, FL",
+  "toCode": null,
+  "date": "10/26/2026",
+  "price": 209,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Lubbock, TX",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Lihue (Kauai), HI",
+  "toCode": null,
+  "date": "12/07/2026",
+  "price": 263,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Richmond, VA",
+  "toCode": null,
+  "date": "11/10/2026",
+  "price": 201,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Albany, NY",
+  "toCode": null,
+  "date": "10/17/2026",
+  "price": 209,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Kona (Hawaii Island), HI",
+  "toCode": null,
+  "date": "11/16/2026",
+  "price": 276,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Charlotte, NC",
+  "toCode": null,
+  "date": "11/11/2026",
+  "price": 170,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Hartford, CT",
+  "toCode": null,
+  "date": "11/04/2026",
+  "price": 219,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Belize City, Belize",
+  "toCode": null,
+  "date": "12/13/2026",
+  "price": 234,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Midland/Odessa, TX",
+  "toCode": null,
+  "date": "09/24/2026",
+  "price": 147,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Montrose (Telluride/Crested Butte), CO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "San Juan, PR",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 249,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Harlingen, TX",
+  "toCode": null,
+  "date": "11/04/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Wichita, KS",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Destin/Fort Walton Beach, FL",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 153,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Eugene, OR",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Savannah/Hilton Head, GA",
+  "toCode": null,
+  "date": "10/31/2026",
+  "price": 180,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "West Palm Beach (Trump Intl), FL",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 172,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Norfolk, VA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 210,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Fresno, CA",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Providence, RI",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 184,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Myrtle Beach, SC",
+  "toCode": null,
+  "date": "12/02/2026",
+  "price": 180,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Greenville/Spartanburg, SC",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 185,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Corpus Christi, TX",
+  "toCode": null,
+  "date": "10/21/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Montego Bay, Jamaica",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 261,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Portland, ME",
+  "toCode": null,
+  "date": "10/30/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Manchester, NH",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Steamboat Springs (Hayden), CO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Rochester, NY",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 120,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Amarillo, TX",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 145,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Jackson, MS",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 168,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Nassau, Bahamas",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 200,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Aruba, Aruba",
+  "toCode": null,
+  "date": "10/26/2026",
+  "price": 348,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Long Island/Islip, NY",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Providenciales, Turks and Caicos Islands",
+  "toCode": null,
+  "date": "11/30/2026",
+  "price": 197,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Punta Cana, Dominican Republic",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 315,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Havana, Cuba",
+  "toCode": null,
+  "date": "11/02/2026",
+  "price": 221,
+  "intl": true
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Hilo (Hawaii Island), HI",
+  "toCode": null,
+  "date": "11/15/2026",
+  "price": 276,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Colorado Springs, CO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Denver, CO",
+  "fromCode": "DEN",
+  "to": "Grand Cayman, Cayman Islands",
+  "toCode": null,
+  "date": "11/02/2026",
+  "price": 172,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Orlando, FL",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 164,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Phoenix, AZ",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 134,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Fort Myers, FL",
+  "toCode": null,
+  "date": "09/28/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Tampa, FL",
+  "toCode": null,
+  "date": "09/11/2026",
+  "price": 131,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Las Vegas, NV",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 156,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Denver, CO",
+  "toCode": null,
+  "date": "09/29/2026",
+  "price": 115,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Fort Lauderdale, FL",
+  "toCode": null,
+  "date": "09/28/2026",
+  "price": 111,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "New York (LaGuardia), NY",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 134,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Dallas (Love Field), TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Miami, FL",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Houston (Hobby), TX",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 142,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Atlanta, GA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Los Angeles, CA",
+  "toCode": null,
+  "date": "09/15/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Cancun, Mexico",
+  "toCode": null,
+  "date": "12/06/2026",
+  "price": 224,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Kansas City, MO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Nashville, TN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Sarasota/Bradenton, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 170,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Washington (Reagan National), DC",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 150,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Austin, TX",
+  "toCode": null,
+  "date": "09/10/2026",
+  "price": 146,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "New Orleans, LA",
+  "toCode": null,
+  "date": "09/09/2026",
+  "price": 136,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "San Diego, CA",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Boston (Logan), MA",
+  "toCode": null,
+  "date": "09/28/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "St. Louis, MO",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Philadelphia, PA",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Baltimore/Washington, MD",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 154,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Minneapolis/St. Paul , MN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Raleigh/Durham, NC",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Long Beach, CA",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Salt Lake City, UT",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Oakland, CA",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Columbus, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 142,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "San Antonio, TX",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 183,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Charlotte, NC",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Charleston, SC",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 161,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Jacksonville, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 154,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Omaha, NE",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Pittsburgh, PA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 152,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Savannah/Hilton Head, GA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Seattle/Tacoma, WA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 149,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Cleveland, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 59,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Punta Cana, Dominican Republic",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 316,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Birmingham, AL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Memphis, TN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 147,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "San Jose, CA",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 168,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Sacramento, CA",
+  "toCode": null,
+  "date": "10/01/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Tucson, AZ",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 199,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Albuquerque, NM",
+  "toCode": null,
+  "date": "10/10/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Louisville, KY",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Montego Bay, Jamaica",
+  "toCode": null,
+  "date": "10/26/2026",
+  "price": 230,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "San Juan, PR",
+  "toCode": null,
+  "date": "04/10/2026",
+  "price": 214,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Panama City Beach, FL",
+  "toCode": null,
+  "date": "09/11/2026",
+  "price": 189,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Los Cabos, Mexico",
+  "toCode": null,
+  "date": "11/10/2026",
+  "price": 249,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Myrtle Beach, SC",
+  "toCode": null,
+  "date": "10/31/2026",
+  "price": 182,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Ontario/LA, CA",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 120,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Portland, OR",
+  "toCode": null,
+  "date": "09/24/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Buffalo/Niagara, NY",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 157,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Oklahoma City, OK",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Pensacola, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 160,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Detroit, MI",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 109,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Colorado Springs, CO",
+  "toCode": null,
+  "date": "10/21/2026",
+  "price": 162,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Hartford, CT",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Cincinnati, OH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 128,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Providence, RI",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 161,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Palm Springs, CA",
+  "toCode": null,
+  "date": "12/05/2026",
+  "price": 185,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Puerto Vallarta, Mexico",
+  "toCode": null,
+  "date": "10/05/2026",
+  "price": 271,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Norfolk, VA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 151,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Honolulu (Oahu), HI",
+  "toCode": null,
+  "date": "11/02/2026",
+  "price": 322,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Liberia (Guanacaste), Costa Rica",
+  "toCode": null,
+  "date": "09/25/2026",
+  "price": 298,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Albany, NY",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Reno/Tahoe, NV",
+  "toCode": null,
+  "date": "09/25/2026",
+  "price": 219,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Destin/Fort Walton Beach, FL",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 169,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Tulsa, OK",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 151,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Richmond, VA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 161,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Kahului (Maui), HI",
+  "toCode": null,
+  "date": "01/05/2026",
+  "price": 329,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "West Palm Beach (Trump Intl), FL",
+  "toCode": null,
+  "date": "09/30/2026",
+  "price": 185,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Manchester, NH",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 159,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Harlingen, TX",
+  "toCode": null,
+  "date": "01/21/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Burbank, CA",
+  "toCode": null,
+  "date": "09/26/2026",
+  "price": 209,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Orange County/Santa Ana, CA",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "El Paso, TX",
+  "toCode": null,
+  "date": "09/23/2026",
+  "price": 166,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Steamboat Springs (Hayden), CO",
+  "toCode": null,
+  "date": "03/23/2026",
+  "price": 170,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Grand Cayman, Cayman Islands",
+  "toCode": null,
+  "date": "11/03/2026",
+  "price": 162,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Aruba, Aruba",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 348,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Greenville/Spartanburg, SC",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 163,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Nassau, Bahamas",
+  "toCode": null,
+  "date": "10/27/2026",
+  "price": 192,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Providenciales, Turks and Caicos Islands",
+  "toCode": null,
+  "date": "11/09/2026",
+  "price": 197,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Kona (Hawaii Island), HI",
+  "toCode": null,
+  "date": "11/12/2026",
+  "price": 313,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Lihue (Kauai), HI",
+  "toCode": null,
+  "date": "10/30/2026",
+  "price": 308,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "San Jose, Costa Rica",
+  "toCode": null,
+  "date": "11/09/2026",
+  "price": 223,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Bozeman/Yellowstone, MT",
+  "toCode": null,
+  "date": "09/28/2026",
+  "price": 199,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "San Francisco, CA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 129,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Belize City, Belize",
+  "toCode": null,
+  "date": "11/02/2026",
+  "price": 244,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Rochester, NY",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 139,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Little Rock, AR",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 165,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Santa Barbara, CA",
+  "toCode": null,
+  "date": "10/28/2026",
+  "price": 211,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Boise, ID",
+  "toCode": null,
+  "date": "10/29/2026",
+  "price": 180,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Montrose (Telluride/Crested Butte), CO",
+  "toCode": null,
+  "date": "01/30/2026",
+  "price": 170,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Spokane, WA",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 180,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Grand Rapids, MI",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 133,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Jackson, MS",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 160,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Lubbock, TX",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 176,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Fresno, CA",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 195,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Portland, ME",
+  "toCode": null,
+  "date": "11/02/2026",
+  "price": 179,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Corpus Christi, TX",
+  "toCode": null,
+  "date": "09/30/2026",
+  "price": 175,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Havana, Cuba",
+  "toCode": null,
+  "date": "10/23/2026",
+  "price": 231,
+  "intl": true
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Eugene, OR",
+  "toCode": null,
+  "date": "10/20/2026",
+  "price": 190,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Wichita, KS",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Amarillo, TX",
+  "toCode": null,
+  "date": "10/03/2026",
+  "price": 168,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Midland/Odessa, TX",
+  "toCode": null,
+  "date": "10/06/2026",
+  "price": 170,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Long Island/Islip, NY",
+  "toCode": null,
+  "date": "09/30/2026",
+  "price": 154,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Des Moines, IA",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 119,
+  "intl": false
+ },
+ {
+  "from": "Chicago (Midway), IL",
+  "fromCode": "MDW",
+  "to": "Indianapolis, IN",
+  "toCode": null,
+  "date": "09/22/2026",
+  "price": 134,
+  "intl": false
+ }
+]
