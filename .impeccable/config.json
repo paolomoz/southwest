@@ -47,6 +47,11 @@
         "rule": "design-system-color",
         "value": "#e5e3e3",
         "createdAt": "2026-09-02T09:17:56.510Z"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#636363",
+        "createdAt": "2026-09-03T10:13:50.506Z"
       }
     ]
   }
