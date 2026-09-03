@@ -1,0 +1,120 @@
+/* credit-cards — 3-up credit-card columns on navy ground */
+main .credit-cards-container {
+  background: #1a2c80;
+  padding: 0 0 40px;
+}
+
+main .credit-cards-container > div {
+  max-width: 1235px;
+  padding: 0 24px;
+}
+
+.credit-cards .cc-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: start;
+}
+
+.credit-cards .cc-card {
+  background: #fff;
+  padding: 34px 22px 30px;
+  text-align: center;
+}
+
+.credit-cards h3 {
+  color: var(--midnight);
+  font-size: 22.4px;
+  margin: 0 0 20px;
+}
+
+.credit-cards .cc-art img {
+  width: 280px;
+  height: auto;
+}
+
+.credit-cards .cc-points {
+  color: var(--midnight);
+  font-size: 28.8px;
+  font-weight: 700;
+  margin: 22px 0 6px;
+}
+
+.credit-cards .cc-sub {
+  font-size: 14px;
+  line-height: 1.45;
+  margin: 0 auto 18px;
+  max-width: 34ch;
+}
+
+.credit-cards .cc-apply {
+  display: block;
+  margin: 0 12px 14px;
+  padding: 14px 0;
+  font-size: 14px;
+}
+
+.credit-cards .cc-links {
+  font-size: 14px;
+  margin: 0 0 4px;
+}
+
+.credit-cards .cc-links a {
+  font-weight: 700;
+}
+
+.credit-cards .cc-fee {
+  font-size: 13px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 22px;
+  margin: 0 0 24px;
+}
+
+.credit-cards .cc-group {
+  text-align: left;
+  color: var(--bold-blue);
+  font-size: 25.6px;
+  line-height: 1.25;
+  margin: 26px 0 20px;
+}
+
+.credit-cards .cc-benefits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 22px;
+  text-align: left;
+}
+
+.credit-cards .cc-benefits li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 14px;
+}
+
+.credit-cards .cc-check svg {
+  width: 30px;
+  height: 30px;
+}
+
+.credit-cards .cc-benefits strong {
+  display: block;
+  font-size: 16px;
+  color: var(--midnight);
+  margin-bottom: 4px;
+}
+
+.credit-cards .cc-benefits div {
+  font-size: 14.4px;
+  line-height: 22px;
+}
+
+@media (width <= 900px) {
+  .credit-cards .cc-grid {
+    grid-template-columns: 1fr;
+  }
+}

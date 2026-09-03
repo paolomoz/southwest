@@ -181,3 +181,42 @@ main .promo-hero-container > div {
   grid-row: 1 / span 2;
   padding: 15px 40px;
 }
+
+/* dark variant — gradient hero without photo (credit-cards page) */
+.promo-hero.dark {
+  background: radial-gradient(120% 140% at 65% 0%, #23348c 0%, #111b40 55%, #0b1230 100%);
+}
+
+.promo-hero.dark .ph-photo {
+  display: none;
+}
+
+.promo-hero.dark .ph-copy {
+  position: static;
+  height: auto;
+}
+
+.promo-hero.dark .ph-inner {
+  padding: 70px 24px 64px 115px;
+  position: relative;
+}
+
+.promo-hero.dark .ph-inner::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 265px;
+  height: 300px;
+  background: url('https://www.southwest.com/swa-resources/images/responsive/rapid-rewards-responsive/heart-brightwork.png') center / contain no-repeat;
+}
+
+.promo-hero.dark h1 {
+  max-width: 62%;
+}
+
+.promo-hero.dark .ph-lede {
+  max-width: 62%;
+  font-size: 16px;
+  line-height: 24px;
+}
