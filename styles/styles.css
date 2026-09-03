@@ -712,7 +712,7 @@ main .section.with-rail.single {
 /* business-page section themes (corporate-travel) */
 main .section.silver {
   background: linear-gradient(135deg, #eef1f5 0%, #dfe4ea 60%, #cfd6df 100%);
-  padding: 64px 0 56px;
+  padding: 84px 0 76px;
 }
 
 main .section.silver h2 {
@@ -733,6 +733,14 @@ main .section.silver p:last-of-type {
 
 main .section.royal {
   background: #304cb2;
+}
+
+main .section.royal.centered-dark {
+  padding: 78px 0 84px;
+}
+
+main .section.midnight.centered-dark:has(.columns.logos) {
+  padding: 42px 0 32px;
 }
 
 main .section.midnight {
@@ -840,6 +848,12 @@ main .section:has(.feature-row.business) {
   padding: 0;
 }
 
+.feature-row.business .feature-card > div:first-child img {
+  min-height: 728px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .feature-row.business .feature-card {
   display: grid;
   grid-template-columns: 43% 1fr;
@@ -901,7 +915,7 @@ main .section:has(.feature-row.business) {
 /* faq section (light grey) */
 main .section.faq {
   background: #e8e8ea;
-  padding: 50px 0 70px;
+  padding: 36px 0 40px;
 }
 
 main .section.faq > div {
@@ -912,13 +926,13 @@ main .section.faq h2 {
   text-align: center;
   color: var(--midnight);
   font-size: 35.2px;
-  margin: 0 0 40px;
+  margin: 0 0 28px;
 }
 
 main .section.faq h3 {
   font-size: 28px;
   color: #111;
-  margin: 30px 0 20px;
+  margin: 22px 0 14px;
 }
 
 /* full-bleed wrappers must beat the template container caps */

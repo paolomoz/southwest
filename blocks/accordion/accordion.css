@@ -1,7 +1,7 @@
 /* accordion — collapsible FAQ rows */
 .accordion .acc-list {
   display: grid;
-  gap: 14px;
+  gap: 11px;
 }
 
 .accordion .acc-head {
@@ -15,7 +15,7 @@
   font: inherit;
   font-weight: 700;
   font-size: 17.6px;
-  padding: 20px 24px;
+  padding: 14px 24px;
   cursor: pointer;
   text-align: left;
 }

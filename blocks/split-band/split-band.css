@@ -42,7 +42,7 @@ main .split-band-container > div {
   grid-template-columns: 56px 1fr 190px;
   gap: 12px;
   align-items: center;
-  padding: 34px 60px 34px 40px;
+  padding: 38px 60px 38px 40px;
   background: #1a2c80;
 }
 

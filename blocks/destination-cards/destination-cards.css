@@ -7,7 +7,7 @@ main .destination-cards-container > div {
 .destination-cards .dc-filter {
   background: #f0f0f0;
   padding: 24px 0;
-  margin-bottom: 26px;
+  margin-bottom: 54px;
 }
 
 .destination-cards .dc-filter-inner {
@@ -15,7 +15,7 @@ main .destination-cards-container > div {
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
-  gap: 24px;
+  gap: 18px;
   flex-wrap: wrap;
 }
 
@@ -26,7 +26,7 @@ main .destination-cards-container > div {
   color: var(--bold-blue);
   font: inherit;
   font-size: 16px;
-  padding: 12px 26px;
+  padding: 12px 21px;
   cursor: pointer;
 }
 
@@ -61,10 +61,10 @@ main .destination-cards-container > div {
 }
 
 .destination-cards .dc-copy {
-  padding: 18px 20px 20px;
+  padding: 14px 20px 16px;
   display: grid;
   align-content: start;
-  gap: 4px;
+  gap: 3px;
 }
 
 .destination-cards h3 {
@@ -82,7 +82,7 @@ main .destination-cards-container > div {
 .destination-cards .dc-blurb {
   font-size: 16px;
   line-height: 24px;
-  margin: 2px 0 12px;
+  margin: 2px 0 6px;
 }
 
 .destination-cards .dc-cta {
@@ -93,7 +93,7 @@ main .destination-cards-container > div {
   font-weight: 700;
   font-size: 15px;
   text-align: center;
-  padding: 11px 0;
+  padding: 10px 0;
 }
 
 .destination-cards .dc-cta:hover {
