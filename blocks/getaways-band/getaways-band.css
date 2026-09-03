@@ -1,0 +1,62 @@
+/* getaways-band — navy value-props band */
+main .getaways-band-container {
+  background: #304cb2;
+  padding: 0;
+}
+
+main .getaways-band-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+.getaways-band {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 44px 24px 46px;
+  text-align: center;
+}
+
+.getaways-band h2 {
+  color: #01d8e0;
+  font-size: 32px;
+  margin: 0 0 40px;
+  text-wrap: initial;
+}
+
+.getaways-band .gb-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.getaways-band .gb-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #fff;
+  font-size: 16.5px;
+  font-weight: 700;
+}
+
+.getaways-band .gb-cta {
+  display: inline-block;
+  background: #fff;
+  border-radius: 3px;
+  color: #304cb2;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 13px 28px;
+}
+
+.getaways-band .gb-cta:hover {
+  text-decoration: none;
+  background: #eef1f5;
+}
+
+@media (width <= 900px) {
+  .getaways-band .gb-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

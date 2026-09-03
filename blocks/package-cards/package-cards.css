@@ -1,0 +1,168 @@
+/* package-cards — Getaways package carousel */
+.package-cards {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 40px 0 10px;
+}
+
+.package-cards h2 {
+  color: #304cb2;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 30px;
+  text-wrap: initial;
+}
+
+.package-cards .pk-shell {
+  position: relative;
+}
+
+.package-cards .pk-track {
+  list-style: none;
+  margin: 0;
+  padding: 4px 2px 16px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 258px;
+  gap: 40px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.package-cards .pk-track::-webkit-scrollbar {
+  display: none;
+}
+
+.package-cards .pk-card {
+  background: #fff;
+  box-shadow: 0 1px 6px rgb(17 27 64 / 18%);
+  border-radius: 2px;
+  display: grid;
+  grid-template-rows: 158px 1fr;
+}
+
+.package-cards .pk-media img {
+  width: 100%;
+  height: 158px;
+  object-fit: cover;
+}
+
+.package-cards .pk-body {
+  padding: 12px 16px 18px;
+  display: grid;
+  align-content: start;
+  gap: 3px;
+}
+
+.package-cards .pk-locrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.package-cards .pk-loc {
+  font-size: 13px;
+  color: #111;
+}
+
+.package-cards .pk-stars {
+  display: inline-flex;
+  gap: 1px;
+}
+
+.package-cards .pk-card h3 {
+  color: #111b40;
+  font-size: 17px;
+  line-height: 1.35;
+  margin: 0;
+  text-wrap: initial;
+}
+
+.package-cards .pk-origin {
+  font-style: italic;
+  font-size: 14.5px;
+  margin: 0;
+}
+
+.package-cards .pk-nights {
+  font-weight: 700;
+  font-size: 14.5px;
+  margin: 8px 0 0;
+}
+
+.package-cards .pk-price {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+.package-cards .pk-price s {
+  color: #63666a;
+  margin-right: 4px;
+}
+
+.package-cards .pk-price strong {
+  color: #111b40;
+  font-size: 17px;
+}
+
+.package-cards .pk-taxes {
+  font-style: italic;
+  font-size: 13.5px;
+  margin: 0 0 8px;
+}
+
+.package-cards .pk-points,
+.package-cards .pk-depart {
+  font-size: 13px;
+  margin: 0;
+}
+
+.package-cards .pk-cta {
+  margin-top: 12px;
+  background: #304cb2;
+  color: #01d8e0;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 12px 0;
+}
+
+.package-cards .pk-cta:hover {
+  text-decoration: none;
+  background: #273c93;
+}
+
+.package-cards .pk-next {
+  position: absolute;
+  right: -14px;
+  top: 45%;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #304cb2;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgb(17 27 64 / 20%);
+}
+
+.package-cards .pk-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 6px 0 14px;
+}
+
+.package-cards .pk-dots span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #c9c9c9;
+}
+
+.package-cards .pk-dots span.pk-dot-on {
+  background: #304cb2;
+}

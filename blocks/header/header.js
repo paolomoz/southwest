@@ -116,6 +116,11 @@ export default async function decorate(block) {
       logo.setAttribute('height', '34');
       logo.setAttribute('loading', 'eager');
       a.append(logo);
+    } else {
+      // text brand (Getaways chrome): "Name|by Line™" authored as link text
+      const [name, by] = brandLink.textContent.split('|');
+      a.className = 'brand-text';
+      a.innerHTML = `<span class="brand-name">${name || ''}</span><span class="brand-by">${by || ''}</span>`;
     }
     brand.append(a);
   }

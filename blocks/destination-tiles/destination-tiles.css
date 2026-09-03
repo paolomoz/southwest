@@ -1,0 +1,77 @@
+/* destination-tiles — Getaways photo tile grid */
+.destination-tiles {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 34px 0 20px;
+}
+
+.destination-tiles h2 {
+  color: #304cb2;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 30px;
+  text-wrap: initial;
+}
+
+.destination-tiles .dt-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.destination-tiles .dt-tile {
+  position: relative;
+  display: block;
+}
+
+.destination-tiles .dt-tile.dt-wide {
+  grid-column: span 2;
+}
+
+.destination-tiles .dt-tile img {
+  width: 100%;
+  height: 272px;
+  object-fit: cover;
+  display: block;
+}
+
+.destination-tiles .dt-wide img {
+  height: 272px;
+}
+
+.destination-tiles .dt-label {
+  position: absolute;
+  top: 22px;
+  left: 16px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-shadow: 0 1px 6px rgb(17 27 64 / 55%);
+}
+
+.destination-tiles .dt-tile:hover .dt-label {
+  text-decoration: underline;
+}
+
+.destination-tiles .dt-cta {
+  display: table;
+  margin: 34px auto 6px;
+  background: #fff;
+  border: 1px solid #304cb2;
+  border-radius: 3px;
+  color: #304cb2;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 13px 24px;
+}
+
+.destination-tiles .dt-cta:hover {
+  text-decoration: none;
+  background: #eef1f5;
+}
+
+@media (width <= 900px) {
+  .destination-tiles .dt-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

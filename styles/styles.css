@@ -1027,3 +1027,161 @@ main .section.rm-hidden.rm-open {
   text-decoration: underline;
   margin-right: 8px;
 }
+
+/* getaways template — Getaways by Southwest chrome + section vocabulary */
+body.getaways {
+  --nav-height: 130px;
+}
+
+.getaways main > .section > div {
+  max-width: 1216px;
+}
+
+.getaways main > .section > div.getaways-hero-wrapper,
+.getaways main > .section > div.vacation-widget-wrapper,
+.getaways main > .section > div.getaways-band-wrapper,
+.getaways main > .section > div.featured-destination-wrapper,
+.inner main > .section > div.route-map-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+/* carousel fine print */
+main .section.carousel-note {
+  background: #f0f0f0;
+}
+
+main .section.carousel-note > div {
+  padding-top: 24px;
+  padding-bottom: 26px;
+}
+
+main .section.carousel-note p {
+  font-size: 15px;
+  line-height: 23px;
+  margin: 0;
+}
+
+/* white variant (between white carousels) */
+main .section.carousel-note.plain {
+  background: #fff;
+}
+
+/* gray carousel band (orlando popular packages) */
+main .section.gw-gray {
+  background: #f0f0f0;
+}
+
+/* getaways legal prose */
+main .section.gw-terms p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #111;
+}
+
+/* our travel partners band */
+main .section.partners-band {
+  background: #f0f0f0;
+}
+
+main .section.partners-band > div {
+  padding: 34px 24px 40px;
+  text-align: center;
+}
+
+main .section.partners-band h2 {
+  color: #63666a;
+  font-size: 26px;
+  margin: 0 0 26px;
+}
+
+main .section.partners-band p:has(img) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 0 0 30px;
+}
+
+main .section.partners-band p img {
+  height: 44px;
+  width: auto;
+  filter: grayscale(1);
+}
+
+main .section.partners-band a.button {
+  background: #304cb2;
+  color: #fff;
+  border-radius: 3px;
+}
+
+/* getaways sub-footer strip */
+main .section.getaways-substrip {
+  background: #e6e7e8;
+}
+
+main .section.getaways-substrip > div {
+  padding: 14px 24px;
+}
+
+main .section.getaways-substrip p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+main .section.getaways-substrip a {
+  color: #304cb2;
+  margin-right: 10px;
+  padding-right: 12px;
+  border-right: 1px solid #8f8f8f;
+}
+
+main .section.getaways-substrip a:last-child {
+  border-right: 0;
+}
+
+/* travel-advisory two-column layout */
+.inner main .section.advisory-split > div.default-content-wrapper {
+  max-width: 1216px;
+}
+
+@media (width >= 1000px) {
+  .inner main .section.advisory-split {
+    display: grid;
+    grid-template-columns: 1fr 370px;
+    gap: 60px;
+    max-width: 1264px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .inner main .section.advisory-split > div {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .inner main .section.advisory-split > div.related-rail-wrapper {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+  }
+}
+
+.section.advisory-split h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #111;
+  margin: 26px 0 12px;
+}
+
+/* the trailing plain paragraph is the advisory-status notice pill */
+.section.advisory-split .default-content-wrapper > p:last-of-type:not(.button-wrapper) {
+  background: #f0f0f0;
+  border-radius: 24px;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px 20px;
+  margin: 40px 0 60px;
+}

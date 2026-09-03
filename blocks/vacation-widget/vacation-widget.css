@@ -1,0 +1,141 @@
+/* vacation-widget — Getaways booking bar facsimile */
+main .vacation-widget-container {
+  background: #f0f0f0;
+  padding: 0 0 26px;
+}
+
+main .vacation-widget-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+.vacation-widget .vw-card {
+  max-width: 1216px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(17 27 64 / 12%);
+  padding: 24px 16px 30px;
+  position: relative;
+  top: -34px;
+  margin-bottom: -34px;
+}
+
+.vacation-widget .vw-top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 22px;
+}
+
+.vacation-widget .vw-tabs {
+  display: flex;
+  gap: 26px;
+  flex: 1;
+}
+
+.vacation-widget .vw-tabs button {
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: #304cb2;
+  padding: 2px 0 7px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+}
+
+.vacation-widget .vw-tabs button.vw-active {
+  border-bottom-color: #01d8e0;
+}
+
+.vacation-widget .vw-travelers {
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: #304cb2;
+  cursor: pointer;
+}
+
+.vacation-widget .vw-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 7px solid #304cb2;
+  margin-left: 6px;
+}
+
+.vacation-widget .vw-promo {
+  color: #304cb2;
+  font-size: 15px;
+}
+
+.vacation-widget .vw-bar {
+  display: grid;
+  grid-template-columns: 1.6fr 1.6fr 1.05fr 1.05fr 170px;
+  gap: 24px;
+  align-items: start;
+}
+
+.vacation-widget .vw-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 7px;
+}
+
+.vacation-widget .vw-field input {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #8f8f8f;
+  border-radius: 2px;
+  font: inherit;
+  font-size: 16px;
+  color: #111;
+  padding: 0 10px;
+}
+
+.vacation-widget .vw-datebox {
+  height: 44px;
+  border: 1px solid #8f8f8f;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.vacation-widget .vw-under {
+  display: block;
+  font-size: 12.5px;
+  color: #63666a;
+  margin-top: 6px;
+}
+
+.vacation-widget .vw-submit {
+  background: #304cb2;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 3px;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+
+.vacation-widget .vw-submit:hover {
+  text-decoration: none;
+  background: #273c93;
+}
+
+@media (width <= 900px) {
+  .vacation-widget .vw-top { flex-wrap: wrap; gap: 12px; }
+  .vacation-widget .vw-bar { grid-template-columns: 1fr 1fr; }
+}

@@ -178,3 +178,91 @@ body.transact header nav .nav-row {
   align-items: center;
   padding: 6px 0 9px;
 }
+
+/* ---- Getaways by Southwest chrome (template: getaways) ---- */
+body.getaways header {
+  background: #304cb2;
+}
+
+body.getaways .header .nav-wrapper,
+body.getaways .header nav {
+  background: #304cb2;
+}
+
+body.getaways .header .utility-row {
+  background: #304cb2;
+  border-bottom: 0;
+}
+
+body.getaways .header .utility-row .points-note,
+body.getaways .header .nav-glyphs {
+  display: none;
+}
+
+body.getaways .header .utility-row a,
+body.getaways .header .utility-row .create-account {
+  color: #fff;
+}
+
+body.getaways .header .utility-row .button.login {
+  background: transparent;
+  border: 0;
+  color: #01d8e0;
+  box-shadow: none;
+  padding: 6px 10px;
+}
+
+body.getaways .header .utility-row .button.login .ic-person {
+  fill: #01d8e0;
+}
+
+body.getaways .header .utility-row .espanol,
+body.getaways .header .utility-row .espanol .ic-globe {
+  color: #fff;
+  fill: #fff;
+}
+
+body.getaways .header .brand-text {
+  display: inline-block;
+  line-height: 1;
+}
+
+body.getaways .header .brand-text:hover {
+  text-decoration: none;
+}
+
+body.getaways .header .brand-name {
+  display: block;
+  color: #01d8e0;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+body.getaways .header .brand-by {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+body.getaways .header .nav-sections a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+body.getaways .header .nav-sections a:hover {
+  color: #01d8e0;
+  text-decoration: none;
+}
+
+body.getaways .header .nav-sections li:last-of-type a {
+  color: #01d8e0;
+}
+
+body.getaways .header .nav-sections li + li {
+  border-left: 1px solid rgb(255 255 255 / 45%);
+  padding-left: 22px;
+  margin-left: 22px;
+}

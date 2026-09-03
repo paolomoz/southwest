@@ -43,3 +43,23 @@
   font-size: 15px;
   line-height: 1.55;
 }
+
+/* gw variant — Getaways destination link accordion */
+.accordion.gw {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.accordion.gw .acc-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 14px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px 30px;
+}
+
+.accordion.gw .acc-panel a {
+  color: #304cb2;
+  font-size: 15.5px;
+}
