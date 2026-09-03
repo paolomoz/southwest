@@ -1,17 +1,8 @@
 {
-  "/route-map/index": {
+  "/vacations/index": {
     "status": "live",
     "attempts": 1,
-    "ts": "2026-09-03T07:53:21.629Z",
-    "put": 200,
-    "preview": 200,
-    "live": 200,
-    "verify": "ok"
-  },
-  "/vacations/deals/index": {
-    "status": "live",
-    "attempts": 1,
-    "ts": "2026-09-03T07:53:21.629Z",
+    "ts": "2026-09-03T08:03:41.045Z",
     "put": 200,
     "preview": 200,
     "live": 200,
