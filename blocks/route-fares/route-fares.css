@@ -168,6 +168,10 @@
 }
 
 /* wide variant — horizontal cards, 2 columns */
+.route-fares.wide h2 {
+  margin-top: 88px;
+}
+
 .route-fares.wide .rf-grid {
   grid-template-columns: repeat(2, 1fr);
   gap: 12px 16px;
