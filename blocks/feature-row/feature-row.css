@@ -482,3 +482,35 @@ main .feature-row-container:has(.feature-row.promo) > div {
   font-size: 16px;
   line-height: 25px;
 }
+
+/* promo banner (rr-cards): copy left, cards image right, yellow CTA */
+.feature-row.promo .feature-card > div:first-child {
+  order: 2;
+}
+
+.feature-row.promo .feature-copy h2 {
+  font-size: 38px;
+  line-height: 1.25;
+  max-width: 24ch;
+  text-wrap: initial;
+}
+
+.feature-row.promo .feature-copy p a {
+  display: inline-block;
+  background: #ffbf27;
+  color: #111b40;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 13px 44px;
+  margin-top: 26px;
+}
+
+.feature-row.promo .feature-copy p a:hover {
+  text-decoration: none;
+}
+
+.feature-row.promo .feature-card > div:first-child img {
+  max-height: 300px;
+  object-fit: contain;
+}

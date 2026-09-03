@@ -1205,3 +1205,33 @@ main .section.getaways-substrip a:last-child {
   padding: 14px 20px;
   margin: 40px 0 60px;
 }
+
+/* rr-cards consumer/business tab strip (royal band) */
+main .section.rr-cards-tabs {
+  background: #304cb2;
+}
+
+main .section.rr-cards-tabs > div {
+  padding-top: 24px;
+  padding-bottom: 0;
+}
+
+main .section.rr-cards-tabs p {
+  margin: 0;
+  display: flex;
+  gap: 34px;
+  font-size: 18px;
+}
+
+main .section.rr-cards-tabs strong {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 12px;
+}
+
+main .section.rr-cards-tabs a {
+  color: #fff;
+  font-weight: 400;
+  border-bottom: 3px solid rgb(255 255 255 / 35%);
+  padding-bottom: 12px;
+}
